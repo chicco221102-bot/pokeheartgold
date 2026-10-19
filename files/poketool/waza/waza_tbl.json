@@ -691,10 +691,10 @@
         },
         {
             "move": "MOVE_TACKLE",
-            "name": "Tackle",
+            "name": "Sborrata",
             "effect": "MOVE_EFFECT_HIT",
             "category": "CATEGORY_PHYSICAL",
-            "power": 35,
+            "power": 100,
             "type": "TYPE_NORMAL",
             "accuracy": 95,
             "pp": 35,
