@@ -8,6 +8,21 @@ dove si trova ogni cosa e come ricompilare la ROM.
 > sicuro. Cambiare la **dimensione** di strutture o funzioni (per esempio aggiungere
 > elementi a una tabella usata da codice ancora in assembly) può far crashare il gioco.
 
+## Modifiche di gioco già attive in questo repository
+
+| Cosa | Dove nel codice |
+| --- | --- |
+| Avvio diretto al menu principale (niente intro e schermata titolo) | `src/main.c` |
+| START nel menu principale = Nuova partita, con conferma | `src/application/main_menu/main_menu.c` |
+| Nuova partita: maschio "Chicco", si parte nel laboratorio di Elm davanti alle 3 Poké Ball, con Pokégear | `src/overlay_36.c` |
+| Si può salvare una nuova partita sopra quella vecchia (chiede conferma) | `src/save.c` |
+| Starter, Pokémon selvatici (erba, surf, pesca, Spaccaroccia, sciami, radio, Bottintesta, Zona Safari, Gara Coleotteri) e starter del rivale casuali **per ogni partita**, ricavati dall'ID Allenatore | `src/randomizer.c` |
+| Probabilità shiny 50% | `SHINY_ODDS` in `include/constants/pokemon.h` |
+| Tenere premuto **R** fa scorrere i dialoghi; testo VELOCE di default | `src/render_text.c`, `src/text.c`, `src/scrcmd_c.c`, `src/options.c` |
+| Riepilogo Pokémon, pagina statistiche: **SELECT** alterna Statistiche / EV / IV / Base | `src/pokemon_summary_stat_view.c` |
+| Bici sempre alla velocità massima | `asm/unk_0205CB48.s` |
+| Azione → "Sborrata", potenza 100, animazione di Idropompa | `waza_tbl.json`, `msg_0750/0751`, `files/a/0/1/0` |
+
 ## Compilare la ROM modificata
 
 ```bash
