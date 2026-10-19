@@ -139,10 +139,16 @@ funzione d'uso, cure, ecc. Nomi e descrizioni sono in `files/msgdata/msg/msg_022
 
 ## Movimento e bicicletta
 
-La bici ha 4 livelli di velocità che salgono a ogni passo. La scelta del movimento
-per livello è in `sub_0205D658` (`asm/unk_0205CB48.s`): `0x4C` → `0x10` → `0x50` →
-`0x14` (la velocità massima, 2 frame per casella). La corsa con le Scarpe da Corsa usa
-il movimento `0x58` (4 frame per casella) in `sub_0205D4B4`.
+Nel gioco originale la bici ha 4 livelli di velocità che salgono a ogni passo. La scelta
+del movimento per livello è in `sub_0205D658` (`asm/unk_0205CB48.s`): `0x4C` → `0x10` →
+`0x50` → `0x14` (la velocità massima, 2 frame per casella).
+
+**In questo repository è attiva la "bici turbo"**: tutti e quattro i livelli usano
+`0x14`, quindi la bici parte subito alla velocità massima. Per tornare alla bici
+originale rimetti `0x4c`, `0x10`, `0x50` nei tre `mov r4, ...` di `sub_0205D658`.
+
+La corsa con le Scarpe da Corsa usa il movimento `0x58` (4 frame per casella) in
+`sub_0205D4B4`.
 
 Un veicolo con un aspetto proprio richiede una nuova grafica 3D del personaggio
 (file `.NSBTX` in `files/data/mmodel/mmodel/`), che va creata con uno strumento

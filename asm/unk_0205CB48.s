@@ -1418,7 +1418,9 @@ sub_0205D640: ; 0x0205D640
 sub_0205D658: ; 0x0205D658
 	push {r3, r4, r5, lr}
 	add r5, r1, #0
-	mov r4, #0x4c
+	; Turbo bike: every speed level uses the top-speed action (0x14)
+	; instead of ramping up 0x4c -> 0x10 -> 0x50 -> 0x14.
+	mov r4, #0x14
 	bl PlayerAvatar_GetUnk24
 	cmp r0, #1
 	beq _0205D670
@@ -1428,10 +1430,10 @@ sub_0205D658: ; 0x0205D658
 	beq _0205D678
 	b _0205D67A
 _0205D670:
-	mov r4, #0x10
+	mov r4, #0x14
 	b _0205D67A
 _0205D674:
-	mov r4, #0x50
+	mov r4, #0x14
 	b _0205D67A
 _0205D678:
 	mov r4, #0x14
