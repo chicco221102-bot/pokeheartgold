@@ -39,7 +39,7 @@
           "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
           "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_OFF",
           "level": 18,
-          "species": "SPECIES_BAYLEEF",
+          "species": "SPECIES_SLUGMA",
           "capsule": 0
         }
       ],
@@ -75,7 +75,7 @@
           "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
           "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_OFF",
           "level": 5,
-          "species": "SPECIES_CYNDAQUIL",
+          "species": "SPECIES_SEEDOT",
           "capsule": 0
         }
       ],
@@ -94,7 +94,7 @@
           "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
           "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_OFF",
           "level": 5,
-          "species": "SPECIES_TOTODILE",
+          "species": "SPECIES_SHARPEDO",
           "capsule": 0
         }
       ],
@@ -11807,7 +11807,7 @@
           "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
           "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_OFF",
           "level": 22,
-          "species": "SPECIES_BAYLEEF",
+          "species": "SPECIES_SLUGMA",
           "moves": [
             "MOVE_SYNTHESIS",
             "MOVE_REFLECT",
@@ -11919,7 +11919,7 @@
           "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
           "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_OFF",
           "level": 40,
-          "species": "SPECIES_MEGANIUM",
+          "species": "SPECIES_MAGCARGO",
           "moves": [
             "MOVE_REFLECT",
             "MOVE_PETAL_DANCE",
@@ -11961,7 +11961,7 @@
           "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
           "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_OFF",
           "level": 5,
-          "species": "SPECIES_CHIKORITA",
+          "species": "SPECIES_SLUGMA",
           "capsule": 0
         }
       ],
@@ -11996,7 +11996,7 @@
           "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
           "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_OFF",
           "level": 18,
-          "species": "SPECIES_QUILAVA",
+          "species": "SPECIES_NUZLEAF",
           "capsule": 0
         }
       ],
@@ -12074,7 +12074,7 @@
           "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
           "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_OFF",
           "level": 22,
-          "species": "SPECIES_QUILAVA",
+          "species": "SPECIES_NUZLEAF",
           "moves": [
             "MOVE_FLAME_WHEEL",
             "MOVE_SMOKE_SCREEN",
@@ -12186,7 +12186,7 @@
           "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
           "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_OFF",
           "level": 40,
-          "species": "SPECIES_TYPHLOSION",
+          "species": "SPECIES_SHIFTRY",
           "moves": [
             "MOVE_LAVA_PLUME",
             "MOVE_SWIFT",
@@ -12244,7 +12244,7 @@
           "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
           "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_OFF",
           "level": 18,
-          "species": "SPECIES_CROCONAW",
+          "species": "SPECIES_SHARPEDO",
           "capsule": 0
         }
       ],
@@ -12322,7 +12322,7 @@
           "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
           "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_OFF",
           "level": 22,
-          "species": "SPECIES_CROCONAW",
+          "species": "SPECIES_SHARPEDO",
           "moves": [
             "MOVE_SCARY_FACE",
             "MOVE_ICE_FANG",
@@ -12420,7 +12420,7 @@
           "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
           "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_OFF",
           "level": 32,
-          "species": "SPECIES_FERALIGATR",
+          "species": "SPECIES_SHARPEDO",
           "moves": [
             "MOVE_ICE_FANG",
             "MOVE_WATER_GUN",
@@ -12532,7 +12532,7 @@
           "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
           "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_OFF",
           "level": 40,
-          "species": "SPECIES_FERALIGATR",
+          "species": "SPECIES_SHARPEDO",
           "moves": [
             "MOVE_WATERFALL",
             "MOVE_ICE_FANG",
@@ -13129,7 +13129,7 @@
           "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
           "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_OFF",
           "level": 50,
-          "species": "SPECIES_MEGANIUM",
+          "species": "SPECIES_MAGCARGO",
           "moves": [
             "MOVE_PETAL_DANCE",
             "MOVE_POISON_POWDER",
@@ -13241,7 +13241,7 @@
           "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
           "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_OFF",
           "level": 50,
-          "species": "SPECIES_TYPHLOSION",
+          "species": "SPECIES_SHIFTRY",
           "moves": [
             "MOVE_FLAMETHROWER",
             "MOVE_QUICK_ATTACK",
@@ -13353,7 +13353,7 @@
           "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
           "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_OFF",
           "level": 50,
-          "species": "SPECIES_FERALIGATR",
+          "species": "SPECIES_SHARPEDO",
           "moves": [
             "MOVE_WATERFALL",
             "MOVE_ICE_FANG",
@@ -13451,7 +13451,7 @@
           "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
           "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_OFF",
           "level": 34,
-          "species": "SPECIES_MEGANIUM",
+          "species": "SPECIES_SLUGMA",
           "moves": [
             "MOVE_REFLECT",
             "MOVE_SYNTHESIS",
@@ -13549,7 +13549,7 @@
           "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
           "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_OFF",
           "level": 34,
-          "species": "SPECIES_QUILAVA",
+          "species": "SPECIES_SHIFTRY",
           "moves": [
             "MOVE_SMOKE_SCREEN",
             "MOVE_SWIFT",
@@ -22046,7 +22046,7 @@
           "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
           "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_OFF",
           "level": 60,
-          "species": "SPECIES_MEGANIUM",
+          "species": "SPECIES_MAGCARGO",
           "moves": [
             "MOVE_PETAL_DANCE",
             "MOVE_BODY_SLAM",
@@ -22161,7 +22161,7 @@
           "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
           "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_OFF",
           "level": 60,
-          "species": "SPECIES_TYPHLOSION",
+          "species": "SPECIES_SHIFTRY",
           "moves": [
             "MOVE_ROLLOUT",
             "MOVE_FLAMETHROWER",
@@ -22281,7 +22281,7 @@
           "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
           "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_OFF",
           "level": 60,
-          "species": "SPECIES_FERALIGATR",
+          "species": "SPECIES_SHARPEDO",
           "item": "ITEM_NONE",
           "moves": [
             "MOVE_CRUNCH",
@@ -22468,7 +22468,7 @@
           "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
           "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_OFF",
           "level": 5,
-          "species": "SPECIES_CHIKORITA",
+          "species": "SPECIES_SLUGMA",
           "capsule": 0
         }
       ],
@@ -22500,7 +22500,7 @@
           "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
           "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_OFF",
           "level": 5,
-          "species": "SPECIES_CYNDAQUIL",
+          "species": "SPECIES_SEEDOT",
           "capsule": 0
         }
       ],
@@ -22532,7 +22532,7 @@
           "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
           "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_OFF",
           "level": 5,
-          "species": "SPECIES_TOTODILE",
+          "species": "SPECIES_SHARPEDO",
           "capsule": 0
         }
       ],
@@ -34345,7 +34345,7 @@
           "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
           "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_OFF",
           "level": 60,
-          "species": "SPECIES_MEGANIUM",
+          "species": "SPECIES_MAGCARGO",
           "item": "ITEM_NONE",
           "moves": [
             "MOVE_PETAL_DANCE",
@@ -34404,7 +34404,7 @@
           "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
           "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_OFF",
           "level": 60,
-          "species": "SPECIES_TYPHLOSION",
+          "species": "SPECIES_SHIFTRY",
           "item": "ITEM_NONE",
           "moves": [
             "MOVE_ROLLOUT",
@@ -34463,7 +34463,7 @@
           "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
           "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_OFF",
           "level": 60,
-          "species": "SPECIES_FERALIGATR",
+          "species": "SPECIES_SHARPEDO",
           "item": "ITEM_NONE",
           "moves": [
             "MOVE_CRUNCH",

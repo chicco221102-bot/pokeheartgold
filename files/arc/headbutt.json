@@ -76,70 +76,70 @@
             "Map": "R01",
             "CommonMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_GLOOM",
                     "minLevel": 2,
                     "maxLevel": 3
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_KYOGRE",
                     "minLevel": 2,
                     "maxLevel": 3
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_KYOGRE",
                     "minLevel": 2,
                     "maxLevel": 3
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_BUNEARY",
                     "minLevel": 2,
                     "maxLevel": 3
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_BUNEARY",
                     "minLevel": 2,
                     "maxLevel": 3
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_BUNEARY",
                     "minLevel": 2,
                     "maxLevel": 3
                 }
             ],
             "RareMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_GLOOM",
                     "minLevel": 5,
                     "maxLevel": 6
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_ONIX",
+                        "silver": "SPECIES_LILEEP"
                     },
                     "minLevel": 5,
                     "maxLevel": 6
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_ONIX",
+                        "silver": "SPECIES_LILEEP"
                     },
                     "minLevel": 5,
                     "maxLevel": 6
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_BUNEARY",
                     "minLevel": 5,
                     "maxLevel": 6
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_BUNEARY",
                     "minLevel": 5,
                     "maxLevel": 6
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_BUNEARY",
                     "minLevel": 5,
                     "maxLevel": 6
                 }
@@ -381,70 +381,70 @@
             "Map": "R02",
             "CommonMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_SPOINK",
                     "minLevel": 3,
                     "maxLevel": 4
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_LEDIAN",
                     "minLevel": 3,
                     "maxLevel": 4
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_LEDIAN",
                     "minLevel": 3,
                     "maxLevel": 4
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_HAPPINY",
                     "minLevel": 3,
                     "maxLevel": 4
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_HAPPINY",
                     "minLevel": 3,
                     "maxLevel": 4
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_HAPPINY",
                     "minLevel": 3,
                     "maxLevel": 4
                 }
             ],
             "RareMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_SPOINK",
                     "minLevel": 5,
                     "maxLevel": 7
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_UNOWN",
+                        "silver": "SPECIES_MISMAGIUS"
                     },
                     "minLevel": 5,
                     "maxLevel": 7
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_UNOWN",
+                        "silver": "SPECIES_MISMAGIUS"
                     },
                     "minLevel": 5,
                     "maxLevel": 7
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_HAPPINY",
                     "minLevel": 5,
                     "maxLevel": 7
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_HAPPINY",
                     "minLevel": 5,
                     "maxLevel": 7
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_HAPPINY",
                     "minLevel": 5,
                     "maxLevel": 7
                 }
@@ -656,64 +656,64 @@
             "Map": "R03",
             "CommonMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_LOUDRED",
                     "minLevel": 6,
                     "maxLevel": 7
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_DUGTRIO",
                     "minLevel": 6,
                     "maxLevel": 7
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_DUGTRIO",
                     "minLevel": 6,
                     "maxLevel": 7
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_VESPIQUEN",
                     "minLevel": 6,
                     "maxLevel": 7
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_VESPIQUEN",
                     "minLevel": 6,
                     "maxLevel": 7
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_VESPIQUEN",
                     "minLevel": 6,
                     "maxLevel": 7
                 }
             ],
             "RareMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_LOUDRED",
                     "minLevel": 9,
                     "maxLevel": 10
                 },
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_LOUDRED",
                     "minLevel": 9,
                     "maxLevel": 10
                 },
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_LOUDRED",
                     "minLevel": 9,
                     "maxLevel": 10
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_VESPIQUEN",
                     "minLevel": 9,
                     "maxLevel": 10
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_VESPIQUEN",
                     "minLevel": 9,
                     "maxLevel": 10
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_VESPIQUEN",
                     "minLevel": 9,
                     "maxLevel": 10
                 }
@@ -783,64 +783,64 @@
             "Map": "R04",
             "CommonMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_DROWZEE",
                     "minLevel": 6,
                     "maxLevel": 7
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_GASTLY",
                     "minLevel": 6,
                     "maxLevel": 7
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_GASTLY",
                     "minLevel": 6,
                     "maxLevel": 7
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_SKARMORY",
                     "minLevel": 6,
                     "maxLevel": 7
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_SKARMORY",
                     "minLevel": 6,
                     "maxLevel": 7
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_SKARMORY",
                     "minLevel": 6,
                     "maxLevel": 7
                 }
             ],
             "RareMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_DROWZEE",
                     "minLevel": 9,
                     "maxLevel": 10
                 },
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_DROWZEE",
                     "minLevel": 9,
                     "maxLevel": 10
                 },
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_DROWZEE",
                     "minLevel": 9,
                     "maxLevel": 10
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_SKARMORY",
                     "minLevel": 9,
                     "maxLevel": 10
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_SKARMORY",
                     "minLevel": 9,
                     "maxLevel": 10
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_SKARMORY",
                     "minLevel": 9,
                     "maxLevel": 10
                 }
@@ -988,64 +988,64 @@
             "Map": "R05",
             "CommonMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_GLAMEOW",
                     "minLevel": 11,
                     "maxLevel": 13
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_BUNEARY",
                     "minLevel": 11,
                     "maxLevel": 13
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_BUNEARY",
                     "minLevel": 11,
                     "maxLevel": 13
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_TANGROWTH",
                     "minLevel": 11,
                     "maxLevel": 13
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_TANGROWTH",
                     "minLevel": 11,
                     "maxLevel": 13
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_TANGROWTH",
                     "minLevel": 11,
                     "maxLevel": 13
                 }
             ],
             "RareMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_GLAMEOW",
                     "minLevel": 14,
                     "maxLevel": 16
                 },
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_GLAMEOW",
                     "minLevel": 14,
                     "maxLevel": 16
                 },
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_GLAMEOW",
                     "minLevel": 14,
                     "maxLevel": 16
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_TANGROWTH",
                     "minLevel": 14,
                     "maxLevel": 16
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_TANGROWTH",
                     "minLevel": 14,
                     "maxLevel": 16
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_TANGROWTH",
                     "minLevel": 14,
                     "maxLevel": 16
                 }
@@ -1099,64 +1099,64 @@
             "Map": "R06",
             "CommonMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_SLAKING",
                     "minLevel": 11,
                     "maxLevel": 13
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_GLACEON",
                     "minLevel": 11,
                     "maxLevel": 13
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_GLACEON",
                     "minLevel": 11,
                     "maxLevel": 13
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_GIBLE",
                     "minLevel": 11,
                     "maxLevel": 13
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_GIBLE",
                     "minLevel": 11,
                     "maxLevel": 13
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_GIBLE",
                     "minLevel": 11,
                     "maxLevel": 13
                 }
             ],
             "RareMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_SLAKING",
                     "minLevel": 14,
                     "maxLevel": 16
                 },
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_SLAKING",
                     "minLevel": 14,
                     "maxLevel": 16
                 },
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_SLAKING",
                     "minLevel": 14,
                     "maxLevel": 16
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_GIBLE",
                     "minLevel": 14,
                     "maxLevel": 16
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_GIBLE",
                     "minLevel": 14,
                     "maxLevel": 16
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_GIBLE",
                     "minLevel": 14,
                     "maxLevel": 16
                 }
@@ -1246,64 +1246,64 @@
             "Map": "R07",
             "CommonMons": [
                 {
-                    "species": "SPECIES_SPEAROW",
+                    "species": "SPECIES_KOFFING",
                     "minLevel": 15,
                     "maxLevel": 17
                 },
                 {
-                    "species": "SPECIES_HERACROSS",
+                    "species": "SPECIES_PROBOPASS",
                     "minLevel": 15,
                     "maxLevel": 17
                 },
                 {
-                    "species": "SPECIES_HERACROSS",
+                    "species": "SPECIES_PROBOPASS",
                     "minLevel": 15,
                     "maxLevel": 17
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_SNUBBULL",
                     "minLevel": 15,
                     "maxLevel": 17
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_SNUBBULL",
                     "minLevel": 15,
                     "maxLevel": 17
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_SNUBBULL",
                     "minLevel": 15,
                     "maxLevel": 17
                 }
             ],
             "RareMons": [
                 {
-                    "species": "SPECIES_SPEAROW",
+                    "species": "SPECIES_KOFFING",
                     "minLevel": 18,
                     "maxLevel": 20
                 },
                 {
-                    "species": "SPECIES_SPEAROW",
+                    "species": "SPECIES_KOFFING",
                     "minLevel": 18,
                     "maxLevel": 20
                 },
                 {
-                    "species": "SPECIES_SPEAROW",
+                    "species": "SPECIES_KOFFING",
                     "minLevel": 18,
                     "maxLevel": 20
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_SNUBBULL",
                     "minLevel": 18,
                     "maxLevel": 20
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_SNUBBULL",
                     "minLevel": 18,
                     "maxLevel": 20
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_SNUBBULL",
                     "minLevel": 18,
                     "maxLevel": 20
                 }
@@ -1393,64 +1393,64 @@
             "Map": "R08",
             "CommonMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_FROSLASS",
                     "minLevel": 16,
                     "maxLevel": 17
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_RAPIDASH",
                     "minLevel": 16,
                     "maxLevel": 17
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_RAPIDASH",
                     "minLevel": 16,
                     "maxLevel": 17
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_MACHOP",
                     "minLevel": 16,
                     "maxLevel": 17
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_MACHOP",
                     "minLevel": 16,
                     "maxLevel": 17
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_MACHOP",
                     "minLevel": 16,
                     "maxLevel": 17
                 }
             ],
             "RareMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_FROSLASS",
                     "minLevel": 18,
                     "maxLevel": 19
                 },
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_FROSLASS",
                     "minLevel": 18,
                     "maxLevel": 19
                 },
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_FROSLASS",
                     "minLevel": 18,
                     "maxLevel": 19
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_MACHOP",
                     "minLevel": 18,
                     "maxLevel": 19
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_MACHOP",
                     "minLevel": 18,
                     "maxLevel": 19
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_MACHOP",
                     "minLevel": 18,
                     "maxLevel": 19
                 }
@@ -1542,64 +1542,64 @@
             "Map": "R11",
             "CommonMons": [
                 {
-                    "species": "SPECIES_SPEAROW",
+                    "species": "SPECIES_BUNEARY",
                     "minLevel": 13,
                     "maxLevel": 14
                 },
                 {
-                    "species": "SPECIES_HERACROSS",
+                    "species": "SPECIES_LOMBRE",
                     "minLevel": 13,
                     "maxLevel": 14
                 },
                 {
-                    "species": "SPECIES_HERACROSS",
+                    "species": "SPECIES_LOMBRE",
                     "minLevel": 13,
                     "maxLevel": 14
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_MANTYKE",
                     "minLevel": 13,
                     "maxLevel": 14
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_MANTYKE",
                     "minLevel": 13,
                     "maxLevel": 14
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_MANTYKE",
                     "minLevel": 13,
                     "maxLevel": 14
                 }
             ],
             "RareMons": [
                 {
-                    "species": "SPECIES_SPEAROW",
+                    "species": "SPECIES_BUNEARY",
                     "minLevel": 15,
                     "maxLevel": 16
                 },
                 {
-                    "species": "SPECIES_SPEAROW",
+                    "species": "SPECIES_BUNEARY",
                     "minLevel": 15,
                     "maxLevel": 16
                 },
                 {
-                    "species": "SPECIES_SPEAROW",
+                    "species": "SPECIES_BUNEARY",
                     "minLevel": 15,
                     "maxLevel": 16
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_MANTYKE",
                     "minLevel": 15,
                     "maxLevel": 16
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_MANTYKE",
                     "minLevel": 15,
                     "maxLevel": 16
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_MANTYKE",
                     "minLevel": 15,
                     "maxLevel": 16
                 }
@@ -1711,70 +1711,70 @@
             "Map": "R12",
             "CommonMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_CLEFAIRY",
                     "minLevel": 22,
                     "maxLevel": 23
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_PIDGEY",
+                        "silver": "SPECIES_WIGGLYTUFF"
                     },
                     "minLevel": 22,
                     "maxLevel": 23
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_PIDGEY",
+                        "silver": "SPECIES_WIGGLYTUFF"
                     },
                     "minLevel": 22,
                     "maxLevel": 23
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_CHARMANDER",
                     "minLevel": 22,
                     "maxLevel": 23
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_CHARMANDER",
                     "minLevel": 22,
                     "maxLevel": 23
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_CHARMANDER",
                     "minLevel": 22,
                     "maxLevel": 23
                 }
             ],
             "RareMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_CLEFAIRY",
                     "minLevel": 24,
                     "maxLevel": 25
                 },
                 {
-                    "species": "SPECIES_TANGELA",
+                    "species": "SPECIES_SPINDA",
                     "minLevel": 24,
                     "maxLevel": 25
                 },
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_CLEFAIRY",
                     "minLevel": 24,
                     "maxLevel": 25
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_CHARMANDER",
                     "minLevel": 24,
                     "maxLevel": 25
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_CHARMANDER",
                     "minLevel": 24,
                     "maxLevel": 25
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_CHARMANDER",
                     "minLevel": 24,
                     "maxLevel": 25
                 }
@@ -1888,70 +1888,70 @@
             "Map": "R13",
             "CommonMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_MAGNETON",
                     "minLevel": 22,
                     "maxLevel": 23
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_HERACROSS",
+                        "silver": "SPECIES_MEDICHAM"
                     },
                     "minLevel": 22,
                     "maxLevel": 23
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_HERACROSS",
+                        "silver": "SPECIES_MEDICHAM"
                     },
                     "minLevel": 22,
                     "maxLevel": 23
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_UNOWN",
                     "minLevel": 22,
                     "maxLevel": 23
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_UNOWN",
                     "minLevel": 22,
                     "maxLevel": 23
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_UNOWN",
                     "minLevel": 22,
                     "maxLevel": 23
                 }
             ],
             "RareMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_MAGNETON",
                     "minLevel": 24,
                     "maxLevel": 25
                 },
                 {
-                    "species": "SPECIES_TANGELA",
+                    "species": "SPECIES_MISDREAVUS",
                     "minLevel": 24,
                     "maxLevel": 25
                 },
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_MAGNETON",
                     "minLevel": 24,
                     "maxLevel": 25
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_UNOWN",
                     "minLevel": 24,
                     "maxLevel": 25
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_UNOWN",
                     "minLevel": 24,
                     "maxLevel": 25
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_UNOWN",
                     "minLevel": 24,
                     "maxLevel": 25
                 }
@@ -2111,70 +2111,70 @@
             "Map": "R14",
             "CommonMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_GARDEVOIR",
                     "minLevel": 26,
                     "maxLevel": 27
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_DUSKULL",
+                        "silver": "SPECIES_DUGTRIO"
                     },
                     "minLevel": 26,
                     "maxLevel": 27
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_DUSKULL",
+                        "silver": "SPECIES_DUGTRIO"
                     },
                     "minLevel": 26,
                     "maxLevel": 27
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_DIALGA",
                     "minLevel": 26,
                     "maxLevel": 27
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_DIALGA",
                     "minLevel": 26,
                     "maxLevel": 27
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_DIALGA",
                     "minLevel": 26,
                     "maxLevel": 27
                 }
             ],
             "RareMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_GARDEVOIR",
                     "minLevel": 29,
                     "maxLevel": 30
                 },
                 {
-                    "species": "SPECIES_TANGELA",
+                    "species": "SPECIES_DEOXYS",
                     "minLevel": 29,
                     "maxLevel": 30
                 },
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_GARDEVOIR",
                     "minLevel": 29,
                     "maxLevel": 30
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_DIALGA",
                     "minLevel": 29,
                     "maxLevel": 30
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_DIALGA",
                     "minLevel": 29,
                     "maxLevel": 30
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_DIALGA",
                     "minLevel": 29,
                     "maxLevel": 30
                 }
@@ -2250,70 +2250,70 @@
             "Map": "R15",
             "CommonMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_VESPIQUEN",
                     "minLevel": 21,
                     "maxLevel": 23
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_ZUBAT",
+                        "silver": "SPECIES_TENTACOOL"
                     },
                     "minLevel": 21,
                     "maxLevel": 23
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_ZUBAT",
+                        "silver": "SPECIES_TENTACOOL"
                     },
                     "minLevel": 21,
                     "maxLevel": 23
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_METAGROSS",
                     "minLevel": 21,
                     "maxLevel": 23
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_METAGROSS",
                     "minLevel": 21,
                     "maxLevel": 23
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_METAGROSS",
                     "minLevel": 21,
                     "maxLevel": 23
                 }
             ],
             "RareMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_VESPIQUEN",
                     "minLevel": 24,
                     "maxLevel": 26
                 },
                 {
-                    "species": "SPECIES_TANGELA",
+                    "species": "SPECIES_SUICUNE",
                     "minLevel": 24,
                     "maxLevel": 26
                 },
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_VESPIQUEN",
                     "minLevel": 24,
                     "maxLevel": 26
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_METAGROSS",
                     "minLevel": 24,
                     "maxLevel": 26
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_METAGROSS",
                     "minLevel": 24,
                     "maxLevel": 26
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_METAGROSS",
                     "minLevel": 24,
                     "maxLevel": 26
                 }
@@ -2561,64 +2561,64 @@
             "Map": "R16",
             "CommonMons": [
                 {
-                    "species": "SPECIES_SPEAROW",
+                    "species": "SPECIES_HO_OH",
                     "minLevel": 26,
                     "maxLevel": 27
                 },
                 {
-                    "species": "SPECIES_HERACROSS",
+                    "species": "SPECIES_WYNAUT",
                     "minLevel": 26,
                     "maxLevel": 27
                 },
                 {
-                    "species": "SPECIES_HERACROSS",
+                    "species": "SPECIES_WYNAUT",
                     "minLevel": 26,
                     "maxLevel": 27
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_RALTS",
                     "minLevel": 26,
                     "maxLevel": 27
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_RALTS",
                     "minLevel": 26,
                     "maxLevel": 27
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_RALTS",
                     "minLevel": 26,
                     "maxLevel": 27
                 }
             ],
             "RareMons": [
                 {
-                    "species": "SPECIES_SPEAROW",
+                    "species": "SPECIES_HO_OH",
                     "minLevel": 29,
                     "maxLevel": 30
                 },
                 {
-                    "species": "SPECIES_SPEAROW",
+                    "species": "SPECIES_HO_OH",
                     "minLevel": 29,
                     "maxLevel": 30
                 },
                 {
-                    "species": "SPECIES_SPEAROW",
+                    "species": "SPECIES_HO_OH",
                     "minLevel": 29,
                     "maxLevel": 30
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_RALTS",
                     "minLevel": 29,
                     "maxLevel": 30
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_RALTS",
                     "minLevel": 29,
                     "maxLevel": 30
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_RALTS",
                     "minLevel": 29,
                     "maxLevel": 30
                 }
@@ -2668,70 +2668,70 @@
             "Map": "R18",
             "CommonMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_NOCTOWL",
                     "minLevel": 26,
                     "maxLevel": 27
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_TOGEPI",
+                        "silver": "SPECIES_HYPNO"
                     },
                     "minLevel": 26,
                     "maxLevel": 27
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_TOGEPI",
+                        "silver": "SPECIES_HYPNO"
                     },
                     "minLevel": 26,
                     "maxLevel": 27
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_BIDOOF",
                     "minLevel": 26,
                     "maxLevel": 27
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_BIDOOF",
                     "minLevel": 26,
                     "maxLevel": 27
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_BIDOOF",
                     "minLevel": 26,
                     "maxLevel": 27
                 }
             ],
             "RareMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_NOCTOWL",
                     "minLevel": 29,
                     "maxLevel": 30
                 },
                 {
-                    "species": "SPECIES_TANGELA",
+                    "species": "SPECIES_BASTIODON",
                     "minLevel": 29,
                     "maxLevel": 30
                 },
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_NOCTOWL",
                     "minLevel": 29,
                     "maxLevel": 30
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_BIDOOF",
                     "minLevel": 29,
                     "maxLevel": 30
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_BIDOOF",
                     "minLevel": 29,
                     "maxLevel": 30
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_BIDOOF",
                     "minLevel": 29,
                     "maxLevel": 30
                 }
@@ -2775,70 +2775,70 @@
             "Map": "R22",
             "CommonMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_FINNEON",
                     "minLevel": 3,
                     "maxLevel": 4
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_TANGROWTH",
                     "minLevel": 3,
                     "maxLevel": 4
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_TANGROWTH",
                     "minLevel": 3,
                     "maxLevel": 4
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_VOLTORB",
                     "minLevel": 3,
                     "maxLevel": 4
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_VOLTORB",
                     "minLevel": 3,
                     "maxLevel": 4
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_VOLTORB",
                     "minLevel": 3,
                     "maxLevel": 4
                 }
             ],
             "RareMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_FINNEON",
                     "minLevel": 5,
                     "maxLevel": 7
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_MR_MIME",
+                        "silver": "SPECIES_PLUSLE"
                     },
                     "minLevel": 5,
                     "maxLevel": 7
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_MR_MIME",
+                        "silver": "SPECIES_PLUSLE"
                     },
                     "minLevel": 5,
                     "maxLevel": 7
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_VOLTORB",
                     "minLevel": 5,
                     "maxLevel": 7
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_VOLTORB",
                     "minLevel": 5,
                     "maxLevel": 7
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_VOLTORB",
                     "minLevel": 5,
                     "maxLevel": 7
                 }
@@ -2946,96 +2946,96 @@
             "Map": "R25",
             "CommonMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_NINJASK",
                     "minLevel": 10,
                     "maxLevel": 11
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_ENTEI",
                     "minLevel": 10,
                     "maxLevel": 11
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_ENTEI",
                     "minLevel": 10,
                     "maxLevel": 11
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_MASQUERAIN",
                     "minLevel": 10,
                     "maxLevel": 11
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_MASQUERAIN",
                     "minLevel": 10,
                     "maxLevel": 11
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_MASQUERAIN",
                     "minLevel": 10,
                     "maxLevel": 11
                 }
             ],
             "RareMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_NINJASK",
                     "minLevel": 13,
                     "maxLevel": 14
                 },
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_NINJASK",
                     "minLevel": 13,
                     "maxLevel": 14
                 },
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_NINJASK",
                     "minLevel": 13,
                     "maxLevel": 14
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_MASQUERAIN",
                     "minLevel": 13,
                     "maxLevel": 14
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_MASQUERAIN",
                     "minLevel": 13,
                     "maxLevel": 14
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_MASQUERAIN",
                     "minLevel": 13,
                     "maxLevel": 14
                 }
             ],
             "SecretMons": [
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_MASQUERAIN",
                     "minLevel": 10,
                     "maxLevel": 14
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_MASQUERAIN",
                     "minLevel": 10,
                     "maxLevel": 14
                 },
                 {
-                    "species": "SPECIES_SLAKOTH",
+                    "species": "SPECIES_LEAFEON",
                     "minLevel": 10,
                     "maxLevel": 14
                 },
                 {
-                    "species": "SPECIES_SLAKOTH",
+                    "species": "SPECIES_LEAFEON",
                     "minLevel": 10,
                     "maxLevel": 14
                 },
                 {
-                    "species": "SPECIES_SLAKOTH",
+                    "species": "SPECIES_LEAFEON",
                     "minLevel": 10,
                     "maxLevel": 14
                 },
                 {
-                    "species": "SPECIES_SLAKOTH",
+                    "species": "SPECIES_LEAFEON",
                     "minLevel": 15,
                     "maxLevel": 18
                 }
@@ -3295,70 +3295,70 @@
             "Map": "R26",
             "CommonMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_ARTICUNO",
                     "minLevel": 28,
                     "maxLevel": 29
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_SPOINK",
                     "minLevel": 28,
                     "maxLevel": 29
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_SPOINK",
                     "minLevel": 28,
                     "maxLevel": 29
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_HOUNDOOM",
                     "minLevel": 28,
                     "maxLevel": 29
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_HOUNDOOM",
                     "minLevel": 28,
                     "maxLevel": 29
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_HOUNDOOM",
                     "minLevel": 28,
                     "maxLevel": 29
                 }
             ],
             "RareMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_ARTICUNO",
                     "minLevel": 31,
                     "maxLevel": 32
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_SNORUNT",
+                        "silver": "SPECIES_CLAMPERL"
                     },
                     "minLevel": 31,
                     "maxLevel": 32
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_SNORUNT",
+                        "silver": "SPECIES_CLAMPERL"
                     },
                     "minLevel": 31,
                     "maxLevel": 32
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_HOUNDOOM",
                     "minLevel": 31,
                     "maxLevel": 32
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_HOUNDOOM",
                     "minLevel": 31,
                     "maxLevel": 32
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_HOUNDOOM",
                     "minLevel": 31,
                     "maxLevel": 32
                 }
@@ -3574,70 +3574,70 @@
             "Map": "R27",
             "CommonMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_FLAAFFY",
                     "minLevel": 28,
                     "maxLevel": 29
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_STUNKY",
                     "minLevel": 28,
                     "maxLevel": 29
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_STUNKY",
                     "minLevel": 28,
                     "maxLevel": 29
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_PROBOPASS",
                     "minLevel": 28,
                     "maxLevel": 29
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_PROBOPASS",
                     "minLevel": 28,
                     "maxLevel": 29
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_PROBOPASS",
                     "minLevel": 28,
                     "maxLevel": 29
                 }
             ],
             "RareMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_FLAAFFY",
                     "minLevel": 31,
                     "maxLevel": 32
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_MILOTIC",
+                        "silver": "SPECIES_MARSHTOMP"
                     },
                     "minLevel": 31,
                     "maxLevel": 32
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_MILOTIC",
+                        "silver": "SPECIES_MARSHTOMP"
                     },
                     "minLevel": 31,
                     "maxLevel": 32
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_PROBOPASS",
                     "minLevel": 31,
                     "maxLevel": 32
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_PROBOPASS",
                     "minLevel": 31,
                     "maxLevel": 32
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_PROBOPASS",
                     "minLevel": 31,
                     "maxLevel": 32
                 }
@@ -3869,64 +3869,64 @@
             "Map": "R28",
             "CommonMons": [
                 {
-                    "species": "SPECIES_HERACROSS",
+                    "species": "SPECIES_WEEDLE",
                     "minLevel": 39,
                     "maxLevel": 40
                 },
                 {
-                    "species": "SPECIES_AIPOM",
+                    "species": "SPECIES_CHINGLING",
                     "minLevel": 39,
                     "maxLevel": 40
                 },
                 {
-                    "species": "SPECIES_AIPOM",
+                    "species": "SPECIES_CHINGLING",
                     "minLevel": 39,
                     "maxLevel": 40
                 },
                 {
-                    "species": "SPECIES_NATU",
+                    "species": "SPECIES_MAROWAK",
                     "minLevel": 39,
                     "maxLevel": 40
                 },
                 {
-                    "species": "SPECIES_NATU",
+                    "species": "SPECIES_MAROWAK",
                     "minLevel": 39,
                     "maxLevel": 40
                 },
                 {
-                    "species": "SPECIES_NATU",
+                    "species": "SPECIES_MAROWAK",
                     "minLevel": 39,
                     "maxLevel": 40
                 }
             ],
             "RareMons": [
                 {
-                    "species": "SPECIES_HERACROSS",
+                    "species": "SPECIES_WEEDLE",
                     "minLevel": 41,
                     "maxLevel": 43
                 },
                 {
-                    "species": "SPECIES_AIPOM",
+                    "species": "SPECIES_CHINGLING",
                     "minLevel": 41,
                     "maxLevel": 43
                 },
                 {
-                    "species": "SPECIES_AIPOM",
+                    "species": "SPECIES_CHINGLING",
                     "minLevel": 41,
                     "maxLevel": 43
                 },
                 {
-                    "species": "SPECIES_NATU",
+                    "species": "SPECIES_MAROWAK",
                     "minLevel": 41,
                     "maxLevel": 43
                 },
                 {
-                    "species": "SPECIES_NATU",
+                    "species": "SPECIES_MAROWAK",
                     "minLevel": 41,
                     "maxLevel": 43
                 },
                 {
-                    "species": "SPECIES_NATU",
+                    "species": "SPECIES_MAROWAK",
                     "minLevel": 41,
                     "maxLevel": 43
                 }
@@ -4102,70 +4102,70 @@
             "Map": "R29",
             "CommonMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_GLISCOR",
                     "minLevel": 2,
                     "maxLevel": 3
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_SANDSLASH",
                     "minLevel": 2,
                     "maxLevel": 3
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_SANDSLASH",
                     "minLevel": 2,
                     "maxLevel": 3
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_REMORAID",
                     "minLevel": 2,
                     "maxLevel": 3
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_REMORAID",
                     "minLevel": 2,
                     "maxLevel": 3
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_REMORAID",
                     "minLevel": 2,
                     "maxLevel": 3
                 }
             ],
             "RareMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_GLISCOR",
                     "minLevel": 4,
                     "maxLevel": 5
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_UMBREON",
+                        "silver": "SPECIES_SLOWKING"
                     },
                     "minLevel": 4,
                     "maxLevel": 5
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_UMBREON",
+                        "silver": "SPECIES_SLOWKING"
                     },
                     "minLevel": 4,
                     "maxLevel": 5
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_REMORAID",
                     "minLevel": 4,
                     "maxLevel": 5
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_REMORAID",
                     "minLevel": 4,
                     "maxLevel": 5
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_REMORAID",
                     "minLevel": 4,
                     "maxLevel": 5
                 }
@@ -4629,70 +4629,70 @@
             "Map": "R30",
             "CommonMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_ARIADOS",
                     "minLevel": 2,
                     "maxLevel": 3
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_SLAKING",
                     "minLevel": 2,
                     "maxLevel": 3
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_SLAKING",
                     "minLevel": 2,
                     "maxLevel": 3
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_RAIKOU",
                     "minLevel": 2,
                     "maxLevel": 3
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_RAIKOU",
                     "minLevel": 2,
                     "maxLevel": 3
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_RAIKOU",
                     "minLevel": 2,
                     "maxLevel": 3
                 }
             ],
             "RareMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_ARIADOS",
                     "minLevel": 4,
                     "maxLevel": 5
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_CROCONAW",
+                        "silver": "SPECIES_GLOOM"
                     },
                     "minLevel": 4,
                     "maxLevel": 5
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_CROCONAW",
+                        "silver": "SPECIES_GLOOM"
                     },
                     "minLevel": 4,
                     "maxLevel": 5
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_RAIKOU",
                     "minLevel": 4,
                     "maxLevel": 5
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_RAIKOU",
                     "minLevel": 4,
                     "maxLevel": 5
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_RAIKOU",
                     "minLevel": 4,
                     "maxLevel": 5
                 }
@@ -5066,70 +5066,70 @@
             "Map": "R31",
             "CommonMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_GLACEON",
                     "minLevel": 3,
                     "maxLevel": 4
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_PHANPY",
                     "minLevel": 3,
                     "maxLevel": 4
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_PHANPY",
                     "minLevel": 3,
                     "maxLevel": 4
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_ARCANINE",
                     "minLevel": 3,
                     "maxLevel": 4
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_ARCANINE",
                     "minLevel": 3,
                     "maxLevel": 4
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_ARCANINE",
                     "minLevel": 3,
                     "maxLevel": 4
                 }
             ],
             "RareMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_GLACEON",
                     "minLevel": 5,
                     "maxLevel": 6
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_MAGBY",
+                        "silver": "SPECIES_SEALEO"
                     },
                     "minLevel": 5,
                     "maxLevel": 6
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_MAGBY",
+                        "silver": "SPECIES_SEALEO"
                     },
                     "minLevel": 5,
                     "maxLevel": 6
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_ARCANINE",
                     "minLevel": 5,
                     "maxLevel": 6
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_ARCANINE",
                     "minLevel": 5,
                     "maxLevel": 6
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_ARCANINE",
                     "minLevel": 5,
                     "maxLevel": 6
                 }
@@ -5317,64 +5317,64 @@
             "Map": "R32",
             "CommonMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_TOGEPI",
                     "minLevel": 4,
                     "maxLevel": 5
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_CHIMECHO",
                     "minLevel": 4,
                     "maxLevel": 5
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_CHIMECHO",
                     "minLevel": 4,
                     "maxLevel": 5
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_EKANS",
                     "minLevel": 4,
                     "maxLevel": 5
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_EKANS",
                     "minLevel": 4,
                     "maxLevel": 5
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_EKANS",
                     "minLevel": 4,
                     "maxLevel": 5
                 }
             ],
             "RareMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_TOGEPI",
                     "minLevel": 6,
                     "maxLevel": 7
                 },
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_TOGEPI",
                     "minLevel": 6,
                     "maxLevel": 7
                 },
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_TOGEPI",
                     "minLevel": 6,
                     "maxLevel": 7
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_EKANS",
                     "minLevel": 6,
                     "maxLevel": 7
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_EKANS",
                     "minLevel": 6,
                     "maxLevel": 7
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_EKANS",
                     "minLevel": 6,
                     "maxLevel": 7
                 }
@@ -5802,64 +5802,64 @@
             "Map": "R33",
             "CommonMons": [
                 {
-                    "species": "SPECIES_SPEAROW",
+                    "species": "SPECIES_KIRLIA",
                     "minLevel": 3,
                     "maxLevel": 5
                 },
                 {
-                    "species": "SPECIES_HERACROSS",
+                    "species": "SPECIES_EXPLOUD",
                     "minLevel": 3,
                     "maxLevel": 5
                 },
                 {
-                    "species": "SPECIES_HERACROSS",
+                    "species": "SPECIES_EXPLOUD",
                     "minLevel": 3,
                     "maxLevel": 5
                 },
                 {
-                    "species": "SPECIES_AIPOM",
+                    "species": "SPECIES_BEAUTIFLY",
                     "minLevel": 3,
                     "maxLevel": 5
                 },
                 {
-                    "species": "SPECIES_AIPOM",
+                    "species": "SPECIES_BEAUTIFLY",
                     "minLevel": 3,
                     "maxLevel": 5
                 },
                 {
-                    "species": "SPECIES_AIPOM",
+                    "species": "SPECIES_BEAUTIFLY",
                     "minLevel": 3,
                     "maxLevel": 5
                 }
             ],
             "RareMons": [
                 {
-                    "species": "SPECIES_SPEAROW",
+                    "species": "SPECIES_KIRLIA",
                     "minLevel": 6,
                     "maxLevel": 8
                 },
                 {
-                    "species": "SPECIES_SPEAROW",
+                    "species": "SPECIES_KIRLIA",
                     "minLevel": 6,
                     "maxLevel": 8
                 },
                 {
-                    "species": "SPECIES_SPEAROW",
+                    "species": "SPECIES_KIRLIA",
                     "minLevel": 6,
                     "maxLevel": 8
                 },
                 {
-                    "species": "SPECIES_AIPOM",
+                    "species": "SPECIES_BEAUTIFLY",
                     "minLevel": 6,
                     "maxLevel": 8
                 },
                 {
-                    "species": "SPECIES_AIPOM",
+                    "species": "SPECIES_BEAUTIFLY",
                     "minLevel": 6,
                     "maxLevel": 8
                 },
                 {
-                    "species": "SPECIES_AIPOM",
+                    "species": "SPECIES_BEAUTIFLY",
                     "minLevel": 6,
                     "maxLevel": 8
                 }
@@ -5913,70 +5913,70 @@
             "Map": "R34",
             "CommonMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_SKARMORY",
                     "minLevel": 9,
                     "maxLevel": 10
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_ODDISH",
                     "minLevel": 9,
                     "maxLevel": 10
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_ODDISH",
                     "minLevel": 9,
                     "maxLevel": 10
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_GARCHOMP",
                     "minLevel": 9,
                     "maxLevel": 10
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_GARCHOMP",
                     "minLevel": 9,
                     "maxLevel": 10
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_GARCHOMP",
                     "minLevel": 9,
                     "maxLevel": 10
                 }
             ],
             "RareMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_SKARMORY",
                     "minLevel": 11,
                     "maxLevel": 12
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_STARYU",
+                        "silver": "SPECIES_GENGAR"
                     },
                     "minLevel": 11,
                     "maxLevel": 12
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_STARYU",
+                        "silver": "SPECIES_GENGAR"
                     },
                     "minLevel": 11,
                     "maxLevel": 12
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_GARCHOMP",
                     "minLevel": 11,
                     "maxLevel": 12
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_GARCHOMP",
                     "minLevel": 11,
                     "maxLevel": 12
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_GARCHOMP",
                     "minLevel": 11,
                     "maxLevel": 12
                 }
@@ -6152,70 +6152,70 @@
             "Map": "R35",
             "CommonMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_BIDOOF",
                     "minLevel": 10,
                     "maxLevel": 11
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_KABUTO",
                     "minLevel": 10,
                     "maxLevel": 11
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_KABUTO",
                     "minLevel": 10,
                     "maxLevel": 11
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_PONYTA",
                     "minLevel": 10,
                     "maxLevel": 11
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_PONYTA",
                     "minLevel": 10,
                     "maxLevel": 11
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_PONYTA",
                     "minLevel": 10,
                     "maxLevel": 11
                 }
             ],
             "RareMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_BIDOOF",
                     "minLevel": 13,
                     "maxLevel": 14
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_NOSEPASS",
+                        "silver": "SPECIES_GIRAFARIG"
                     },
                     "minLevel": 13,
                     "maxLevel": 14
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_NOSEPASS",
+                        "silver": "SPECIES_GIRAFARIG"
                     },
                     "minLevel": 13,
                     "maxLevel": 14
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_PONYTA",
                     "minLevel": 13,
                     "maxLevel": 14
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_PONYTA",
                     "minLevel": 13,
                     "maxLevel": 14
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_PONYTA",
                     "minLevel": 13,
                     "maxLevel": 14
                 }
@@ -6413,70 +6413,70 @@
             "Map": "R36",
             "CommonMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_CLAMPERL",
                     "minLevel": 4,
                     "maxLevel": 5
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_WOBBUFFET",
                     "minLevel": 4,
                     "maxLevel": 5
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_WOBBUFFET",
                     "minLevel": 4,
                     "maxLevel": 5
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_GRANBULL",
                     "minLevel": 4,
                     "maxLevel": 5
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_GRANBULL",
                     "minLevel": 4,
                     "maxLevel": 5
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_GRANBULL",
                     "minLevel": 4,
                     "maxLevel": 5
                 }
             ],
             "RareMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_CLAMPERL",
                     "minLevel": 6,
                     "maxLevel": 7
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_DROWZEE",
+                        "silver": "SPECIES_HYPNO"
                     },
                     "minLevel": 6,
                     "maxLevel": 7
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_DROWZEE",
+                        "silver": "SPECIES_HYPNO"
                     },
                     "minLevel": 6,
                     "maxLevel": 7
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_GRANBULL",
                     "minLevel": 6,
                     "maxLevel": 7
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_GRANBULL",
                     "minLevel": 6,
                     "maxLevel": 7
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_GRANBULL",
                     "minLevel": 6,
                     "maxLevel": 7
                 }
@@ -6783,27 +6783,27 @@
                     "maxLevel": 14
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_FERALIGATR",
                     "minLevel": 12,
                     "maxLevel": 14
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_FERALIGATR",
                     "minLevel": 12,
                     "maxLevel": 14
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_UXIE",
                     "minLevel": 12,
                     "maxLevel": 14
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_UXIE",
                     "minLevel": 12,
                     "maxLevel": 14
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_UXIE",
                     "minLevel": 12,
                     "maxLevel": 14
                 }
@@ -6816,32 +6816,32 @@
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_KOFFING",
+                        "silver": "SPECIES_SUNKERN"
                     },
                     "minLevel": 15,
                     "maxLevel": 17
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_KOFFING",
+                        "silver": "SPECIES_SUNKERN"
                     },
                     "minLevel": 15,
                     "maxLevel": 17
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_UXIE",
                     "minLevel": 15,
                     "maxLevel": 17
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_UXIE",
                     "minLevel": 15,
                     "maxLevel": 17
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_UXIE",
                     "minLevel": 15,
                     "maxLevel": 17
                 }
@@ -7025,102 +7025,102 @@
         "Map": "R38",
             "CommonMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_CHARMELEON",
                     "minLevel": 13,
                     "maxLevel": 14
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_NIDORINA",
                     "minLevel": 13,
                     "maxLevel": 14
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_NIDORINA",
                     "minLevel": 13,
                     "maxLevel": 14
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_PRINPLUP",
                     "minLevel": 13,
                     "maxLevel": 14
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_PRINPLUP",
                     "minLevel": 13,
                     "maxLevel": 14
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_PRINPLUP",
                     "minLevel": 13,
                     "maxLevel": 14
                 }
             ],
             "RareMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_CHARMELEON",
                     "minLevel": 15,
                     "maxLevel": 16
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_REGICE",
+                        "silver": "SPECIES_MAGNEMITE"
                     },
                     "minLevel": 15,
                     "maxLevel": 16
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_REGICE",
+                        "silver": "SPECIES_MAGNEMITE"
                     },
                     "minLevel": 15,
                     "maxLevel": 16
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_PRINPLUP",
                     "minLevel": 15,
                     "maxLevel": 16
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_PRINPLUP",
                     "minLevel": 15,
                     "maxLevel": 16
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_PRINPLUP",
                     "minLevel": 15,
                     "maxLevel": 16
                 }
             ],
             "SecretMons": [
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_PRINPLUP",
                     "minLevel": 18,
                     "maxLevel": 25
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_PRINPLUP",
                     "minLevel": 18,
                     "maxLevel": 25
                 },
                 {
-                    "species": "SPECIES_BURMY",
+                    "species": "SPECIES_XATU",
                     "minLevel": 18,
                     "maxLevel": 20
                 },
                 {
-                    "species": "SPECIES_BURMY",
+                    "species": "SPECIES_XATU",
                     "minLevel": 18,
                     "maxLevel": 20
                 },
                 {
-                    "species": "SPECIES_BURMY",
+                    "species": "SPECIES_XATU",
                     "minLevel": 18,
                     "maxLevel": 20
                 },
                 {
-                    "species": "SPECIES_BURMY",
+                    "species": "SPECIES_XATU",
                     "minLevel": 21,
                     "maxLevel": 25
                 }
@@ -7314,70 +7314,70 @@
         "Map": "R39",
             "CommonMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_MAGNEZONE",
                     "minLevel": 14,
                     "maxLevel": 15
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_ARIADOS",
                     "minLevel": 14,
                     "maxLevel": 15
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_ARIADOS",
                     "minLevel": 14,
                     "maxLevel": 15
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_POLITOED",
                     "minLevel": 14,
                     "maxLevel": 15
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_POLITOED",
                     "minLevel": 14,
                     "maxLevel": 15
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_POLITOED",
                     "minLevel": 14,
                     "maxLevel": 15
                 }
             ],
             "RareMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_MAGNEZONE",
                     "minLevel": 16,
                     "maxLevel": 17
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_JOLTEON",
+                        "silver": "SPECIES_ABSOL"
                     },
                     "minLevel": 16,
                     "maxLevel": 17
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_JOLTEON",
+                        "silver": "SPECIES_ABSOL"
                     },
                     "minLevel": 16,
                     "maxLevel": 17
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_POLITOED",
                     "minLevel": 16,
                     "maxLevel": 17
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_POLITOED",
                     "minLevel": 16,
                     "maxLevel": 17
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_POLITOED",
                     "minLevel": 16,
                     "maxLevel": 17
                 }
@@ -7433,64 +7433,64 @@
         "Map": "R42",
             "CommonMons": [
                 {
-                    "species": "SPECIES_SPEAROW",
+                    "species": "SPECIES_MINUN",
                     "minLevel": 13,
                     "maxLevel": 14
                 },
                 {
-                    "species": "SPECIES_HERACROSS",
+                    "species": "SPECIES_WEEPINBELL",
                     "minLevel": 13,
                     "maxLevel": 14
                 },
                 {
-                    "species": "SPECIES_HERACROSS",
+                    "species": "SPECIES_WEEPINBELL",
                     "minLevel": 13,
                     "maxLevel": 14
                 },
                 {
-                    "species": "SPECIES_AIPOM",
+                    "species": "SPECIES_GEODUDE",
                     "minLevel": 13,
                     "maxLevel": 14
                 },
                 {
-                    "species": "SPECIES_AIPOM",
+                    "species": "SPECIES_GEODUDE",
                     "minLevel": 13,
                     "maxLevel": 14
                 },
                 {
-                    "species": "SPECIES_AIPOM",
+                    "species": "SPECIES_GEODUDE",
                     "minLevel": 13,
                     "maxLevel": 14
                 }
             ],
             "RareMons": [
                 {
-                    "species": "SPECIES_SPEAROW",
+                    "species": "SPECIES_MINUN",
                     "minLevel": 15,
                     "maxLevel": 16
                 },
                 {
-                    "species": "SPECIES_SPEAROW",
+                    "species": "SPECIES_MINUN",
                     "minLevel": 15,
                     "maxLevel": 16
                 },
                 {
-                    "species": "SPECIES_SPEAROW",
+                    "species": "SPECIES_MINUN",
                     "minLevel": 15,
                     "maxLevel": 16
                 },
                 {
-                    "species": "SPECIES_AIPOM",
+                    "species": "SPECIES_GEODUDE",
                     "minLevel": 15,
                     "maxLevel": 16
                 },
                 {
-                    "species": "SPECIES_AIPOM",
+                    "species": "SPECIES_GEODUDE",
                     "minLevel": 15,
                     "maxLevel": 16
                 },
                 {
-                    "species": "SPECIES_AIPOM",
+                    "species": "SPECIES_GEODUDE",
                     "minLevel": 15,
                     "maxLevel": 16
                 }
@@ -7628,64 +7628,64 @@
         "Map": "R43",
             "CommonMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_LUVDISC",
                     "minLevel": 15,
                     "maxLevel": 16
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_SANDSHREW",
                     "minLevel": 15,
                     "maxLevel": 16
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_SANDSHREW",
                     "minLevel": 15,
                     "maxLevel": 16
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_SKUNTANK",
                     "minLevel": 15,
                     "maxLevel": 16
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_SKUNTANK",
                     "minLevel": 15,
                     "maxLevel": 16
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_SKUNTANK",
                     "minLevel": 15,
                     "maxLevel": 16
                 }
             ],
             "RareMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_LUVDISC",
                     "minLevel": 17,
                     "maxLevel": 18
                 },
                 {
-                    "species": "SPECIES_VENONAT",
+                    "species": "SPECIES_DUNSPARCE",
                     "minLevel": 17,
                     "maxLevel": 18
                 },
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_LUVDISC",
                     "minLevel": 17,
                     "maxLevel": 18
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_SKUNTANK",
                     "minLevel": 17,
                     "maxLevel": 18
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_SKUNTANK",
                     "minLevel": 17,
                     "maxLevel": 18
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_SKUNTANK",
                     "minLevel": 17,
                     "maxLevel": 18
                 }
@@ -7917,64 +7917,64 @@
         "Map": "R44",
             "CommonMons": [
                 {
-                    "species": "SPECIES_SPEAROW",
+                    "species": "SPECIES_MUNCHLAX",
                     "minLevel": 21,
                     "maxLevel": 22
                 },
                 {
-                    "species": "SPECIES_HERACROSS",
+                    "species": "SPECIES_LARVITAR",
                     "minLevel": 21,
                     "maxLevel": 22
                 },
                 {
-                    "species": "SPECIES_HERACROSS",
+                    "species": "SPECIES_LARVITAR",
                     "minLevel": 21,
                     "maxLevel": 22
                 },
                 {
-                    "species": "SPECIES_AIPOM",
+                    "species": "SPECIES_JOLTEON",
                     "minLevel": 21,
                     "maxLevel": 22
                 },
                 {
-                    "species": "SPECIES_AIPOM",
+                    "species": "SPECIES_JOLTEON",
                     "minLevel": 21,
                     "maxLevel": 22
                 },
                 {
-                    "species": "SPECIES_AIPOM",
+                    "species": "SPECIES_JOLTEON",
                     "minLevel": 21,
                     "maxLevel": 22
                 }
             ],
             "RareMons": [
                 {
-                    "species": "SPECIES_SPEAROW",
+                    "species": "SPECIES_MUNCHLAX",
                     "minLevel": 23,
                     "maxLevel": 24
                 },
                 {
-                    "species": "SPECIES_SPEAROW",
+                    "species": "SPECIES_MUNCHLAX",
                     "minLevel": 23,
                     "maxLevel": 24
                 },
                 {
-                    "species": "SPECIES_SPEAROW",
+                    "species": "SPECIES_MUNCHLAX",
                     "minLevel": 23,
                     "maxLevel": 24
                 },
                 {
-                    "species": "SPECIES_AIPOM",
+                    "species": "SPECIES_JOLTEON",
                     "minLevel": 23,
                     "maxLevel": 24
                 },
                 {
-                    "species": "SPECIES_AIPOM",
+                    "species": "SPECIES_JOLTEON",
                     "minLevel": 23,
                     "maxLevel": 24
                 },
                 {
-                    "species": "SPECIES_AIPOM",
+                    "species": "SPECIES_JOLTEON",
                     "minLevel": 23,
                     "maxLevel": 24
                 }
@@ -8184,64 +8184,64 @@
         "Map": "R45",
             "CommonMons": [
                 {
-                    "species": "SPECIES_SPEAROW",
+                    "species": "SPECIES_PORYGON",
                     "minLevel": 23,
                     "maxLevel": 24
                 },
                 {
-                    "species": "SPECIES_HERACROSS",
+                    "species": "SPECIES_SKARMORY",
                     "minLevel": 23,
                     "maxLevel": 24
                 },
                 {
-                    "species": "SPECIES_HERACROSS",
+                    "species": "SPECIES_SKARMORY",
                     "minLevel": 23,
                     "maxLevel": 25
                 },
                 {
-                    "species": "SPECIES_AIPOM",
+                    "species": "SPECIES_EXPLOUD",
                     "minLevel": 23,
                     "maxLevel": 24
                 },
                 {
-                    "species": "SPECIES_AIPOM",
+                    "species": "SPECIES_EXPLOUD",
                     "minLevel": 23,
                     "maxLevel": 24
                 },
                 {
-                    "species": "SPECIES_AIPOM",
+                    "species": "SPECIES_EXPLOUD",
                     "minLevel": 23,
                     "maxLevel": 24
                 }
             ],
             "RareMons": [
                 {
-                    "species": "SPECIES_SPEAROW",
+                    "species": "SPECIES_PORYGON",
                     "minLevel": 26,
                     "maxLevel": 27
                 },
                 {
-                    "species": "SPECIES_SPEAROW",
+                    "species": "SPECIES_PORYGON",
                     "minLevel": 26,
                     "maxLevel": 27
                 },
                 {
-                    "species": "SPECIES_SPEAROW",
+                    "species": "SPECIES_PORYGON",
                     "minLevel": 26,
                     "maxLevel": 27
                 },
                 {
-                    "species": "SPECIES_AIPOM",
+                    "species": "SPECIES_EXPLOUD",
                     "minLevel": 26,
                     "maxLevel": 27
                 },
                 {
-                    "species": "SPECIES_AIPOM",
+                    "species": "SPECIES_EXPLOUD",
                     "minLevel": 26,
                     "maxLevel": 27
                 },
                 {
-                    "species": "SPECIES_AIPOM",
+                    "species": "SPECIES_EXPLOUD",
                     "minLevel": 26,
                     "maxLevel": 27
                 }
@@ -8285,64 +8285,64 @@
         "Map": "R46",
             "CommonMons": [
                 {
-                    "species": "SPECIES_SPEAROW",
+                    "species": "SPECIES_LEDIAN",
                     "minLevel": 2,
                     "maxLevel": 3
                 },
                 {
-                    "species": "SPECIES_HERACROSS",
+                    "species": "SPECIES_MEDITITE",
                     "minLevel": 2,
                     "maxLevel": 3
                 },
                 {
-                    "species": "SPECIES_HERACROSS",
+                    "species": "SPECIES_MEDITITE",
                     "minLevel": 2,
                     "maxLevel": 3
                 },
                 {
-                    "species": "SPECIES_AIPOM",
+                    "species": "SPECIES_BASTIODON",
                     "minLevel": 2,
                     "maxLevel": 3
                 },
                 {
-                    "species": "SPECIES_AIPOM",
+                    "species": "SPECIES_BASTIODON",
                     "minLevel": 2,
                     "maxLevel": 3
                 },
                 {
-                    "species": "SPECIES_AIPOM",
+                    "species": "SPECIES_BASTIODON",
                     "minLevel": 2,
                     "maxLevel": 3
                 }
             ],
             "RareMons": [
                 {
-                    "species": "SPECIES_SPEAROW",
+                    "species": "SPECIES_LEDIAN",
                     "minLevel": 4,
                     "maxLevel": 5
                 },
                 {
-                    "species": "SPECIES_SPEAROW",
+                    "species": "SPECIES_LEDIAN",
                     "minLevel": 4,
                     "maxLevel": 5
                 },
                 {
-                    "species": "SPECIES_SPEAROW",
+                    "species": "SPECIES_LEDIAN",
                     "minLevel": 4,
                     "maxLevel": 5
                 },
                 {
-                    "species": "SPECIES_AIPOM",
+                    "species": "SPECIES_BASTIODON",
                     "minLevel": 4,
                     "maxLevel": 5
                 },
                 {
-                    "species": "SPECIES_AIPOM",
+                    "species": "SPECIES_BASTIODON",
                     "minLevel": 4,
                     "maxLevel": 5
                 },
                 {
-                    "species": "SPECIES_AIPOM",
+                    "species": "SPECIES_BASTIODON",
                     "minLevel": 4,
                     "maxLevel": 5
                 }
@@ -8448,70 +8448,70 @@
         "Map": "T01",
             "CommonMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_MIME_JR",
                     "minLevel": 2,
                     "maxLevel": 3
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_CLOYSTER",
                     "minLevel": 2,
                     "maxLevel": 3
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_CLOYSTER",
                     "minLevel": 2,
                     "maxLevel": 3
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_SPINDA",
                     "minLevel": 2,
                     "maxLevel": 3
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_SPINDA",
                     "minLevel": 2,
                     "maxLevel": 3
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_SPINDA",
                     "minLevel": 2,
                     "maxLevel": 3
                 }
             ],
             "RareMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_MIME_JR",
                     "minLevel": 5,
                     "maxLevel": 6
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_ONIX",
+                        "silver": "SPECIES_SLAKING"
                     },
                     "minLevel": 5,
                     "maxLevel": 6
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_ONIX",
+                        "silver": "SPECIES_SLAKING"
                     },
                     "minLevel": 5,
                     "maxLevel": 6
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_SPINDA",
                     "minLevel": 5,
                     "maxLevel": 6
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_SPINDA",
                     "minLevel": 5,
                     "maxLevel": 6
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_SPINDA",
                     "minLevel": 5,
                     "maxLevel": 6
                 }
@@ -8695,70 +8695,70 @@
         "Map": "T02",
             "CommonMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_REGIROCK",
                     "minLevel": 3,
                     "maxLevel": 4
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_DEOXYS",
                     "minLevel": 3,
                     "maxLevel": 4
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_DEOXYS",
                     "minLevel": 3,
                     "maxLevel": 4
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_SCIZOR",
                     "minLevel": 3,
                     "maxLevel": 4
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_SCIZOR",
                     "minLevel": 3,
                     "maxLevel": 4
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_SCIZOR",
                     "minLevel": 3,
                     "maxLevel": 4
                 }
             ],
             "RareMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_REGIROCK",
                     "minLevel": 5,
                     "maxLevel": 7
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_DRAGONITE",
+                        "silver": "SPECIES_XATU"
                     },
                     "minLevel": 5,
                     "maxLevel": 7
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_DRAGONITE",
+                        "silver": "SPECIES_XATU"
                     },
                     "minLevel": 5,
                     "maxLevel": 7
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_SCIZOR",
                     "minLevel": 5,
                     "maxLevel": 7
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_SCIZOR",
                     "minLevel": 5,
                     "maxLevel": 7
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_SCIZOR",
                     "minLevel": 5,
                     "maxLevel": 7
                 }
@@ -8986,96 +8986,96 @@
         "Map": "T03",
             "CommonMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_SHELLDER",
                     "minLevel": 3,
                     "maxLevel": 5
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_SCYTHER",
                     "minLevel": 3,
                     "maxLevel": 5
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_SCYTHER",
                     "minLevel": 3,
                     "maxLevel": 5
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_TANGELA",
                     "minLevel": 3,
                     "maxLevel": 5
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_TANGELA",
                     "minLevel": 3,
                     "maxLevel": 5
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_TANGELA",
                     "minLevel": 3,
                     "maxLevel": 5
                 }
             ],
             "RareMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_SHELLDER",
                     "minLevel": 7,
                     "maxLevel": 9
                 },
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_SHELLDER",
                     "minLevel": 7,
                     "maxLevel": 9
                 },
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_SHELLDER",
                     "minLevel": 7,
                     "maxLevel": 9
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_TANGELA",
                     "minLevel": 7,
                     "maxLevel": 9
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_TANGELA",
                     "minLevel": 7,
                     "maxLevel": 9
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_TANGELA",
                     "minLevel": 7,
                     "maxLevel": 9
                 }
             ],
             "SecretMons": [
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_TANGELA",
                     "minLevel": 5,
                     "maxLevel": 9
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_TANGELA",
                     "minLevel": 5,
                     "maxLevel": 9
                 },
                 {
-                    "species": "SPECIES_STARLY",
+                    "species": "SPECIES_VIGOROTH",
                     "minLevel": 5,
                     "maxLevel": 9
                 },
                 {
-                    "species": "SPECIES_STARLY",
+                    "species": "SPECIES_VIGOROTH",
                     "minLevel": 5,
                     "maxLevel": 9
                 },
                 {
-                    "species": "SPECIES_STARLY",
+                    "species": "SPECIES_VIGOROTH",
                     "minLevel": 5,
                     "maxLevel": 9
                 },
                 {
-                    "species": "SPECIES_STARLY",
+                    "species": "SPECIES_VIGOROTH",
                     "minLevel": 8,
                     "maxLevel": 12
                 }
@@ -9363,64 +9363,64 @@
         "Map": "T04",
             "CommonMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_MUDKIP",
                     "minLevel": 11,
                     "maxLevel": 13
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_LUVDISC",
                     "minLevel": 11,
                     "maxLevel": 13
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_LUVDISC",
                     "minLevel": 11,
                     "maxLevel": 13
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_SNORUNT",
                     "minLevel": 11,
                     "maxLevel": 13
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_SNORUNT",
                     "minLevel": 11,
                     "maxLevel": 13
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_SNORUNT",
                     "minLevel": 11,
                     "maxLevel": 13
                 }
             ],
             "RareMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_MUDKIP",
                     "minLevel": 14,
                     "maxLevel": 16
                 },
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_MUDKIP",
                     "minLevel": 14,
                     "maxLevel": 16
                 },
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_MUDKIP",
                     "minLevel": 14,
                     "maxLevel": 16
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_SNORUNT",
                     "minLevel": 14,
                     "maxLevel": 16
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_SNORUNT",
                     "minLevel": 14,
                     "maxLevel": 16
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_SNORUNT",
                     "minLevel": 14,
                     "maxLevel": 16
                 }
@@ -9632,64 +9632,64 @@
         "Map": "T06",
             "CommonMons": [
                 {
-                    "species": "SPECIES_SPEAROW",
+                    "species": "SPECIES_MINUN",
                     "minLevel": 11,
                     "maxLevel": 13
                 },
                 {
-                    "species": "SPECIES_HERACROSS",
+                    "species": "SPECIES_SHUCKLE",
                     "minLevel": 11,
                     "maxLevel": 13
                 },
                 {
-                    "species": "SPECIES_HERACROSS",
+                    "species": "SPECIES_SHUCKLE",
                     "minLevel": 11,
                     "maxLevel": 13
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_HOPPIP",
                     "minLevel": 11,
                     "maxLevel": 13
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_HOPPIP",
                     "minLevel": 11,
                     "maxLevel": 13
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_HOPPIP",
                     "minLevel": 11,
                     "maxLevel": 13
                 }
             ],
             "RareMons": [
                 {
-                    "species": "SPECIES_SPEAROW",
+                    "species": "SPECIES_MINUN",
                     "minLevel": 14,
                     "maxLevel": 16
                 },
                 {
-                    "species": "SPECIES_SPEAROW",
+                    "species": "SPECIES_MINUN",
                     "minLevel": 14,
                     "maxLevel": 16
                 },
                 {
-                    "species": "SPECIES_SPEAROW",
+                    "species": "SPECIES_MINUN",
                     "minLevel": 14,
                     "maxLevel": 16
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_HOPPIP",
                     "minLevel": 14,
                     "maxLevel": 16
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_HOPPIP",
                     "minLevel": 14,
                     "maxLevel": 16
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_HOPPIP",
                     "minLevel": 14,
                     "maxLevel": 16
                 }
@@ -9811,64 +9811,64 @@
         "Map": "T07",
             "CommonMons": [
                 {
-                    "species": "SPECIES_SPEAROW",
+                    "species": "SPECIES_HEATRAN",
                     "minLevel": 15,
                     "maxLevel": 17
                 },
                 {
-                    "species": "SPECIES_HERACROSS",
+                    "species": "SPECIES_GOREBYSS",
                     "minLevel": 15,
                     "maxLevel": 17
                 },
                 {
-                    "species": "SPECIES_HERACROSS",
+                    "species": "SPECIES_GOREBYSS",
                     "minLevel": 15,
                     "maxLevel": 17
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_TOXICROAK",
                     "minLevel": 15,
                     "maxLevel": 17
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_TOXICROAK",
                     "minLevel": 15,
                     "maxLevel": 17
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_TOXICROAK",
                     "minLevel": 15,
                     "maxLevel": 17
                 }
             ],
             "RareMons": [
                 {
-                    "species": "SPECIES_SPEAROW",
+                    "species": "SPECIES_HEATRAN",
                     "minLevel": 18,
                     "maxLevel": 20
                 },
                 {
-                    "species": "SPECIES_SPEAROW",
+                    "species": "SPECIES_HEATRAN",
                     "minLevel": 18,
                     "maxLevel": 20
                 },
                 {
-                    "species": "SPECIES_SPEAROW",
+                    "species": "SPECIES_HEATRAN",
                     "minLevel": 18,
                     "maxLevel": 20
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_TOXICROAK",
                     "minLevel": 18,
                     "maxLevel": 20
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_TOXICROAK",
                     "minLevel": 18,
                     "maxLevel": 20
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_TOXICROAK",
                     "minLevel": 18,
                     "maxLevel": 20
                 }
@@ -10218,70 +10218,70 @@
         "Map": "T08",
             "CommonMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_EXEGGUTOR",
                     "minLevel": 21,
                     "maxLevel": 23
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_EMPOLEON",
+                        "silver": "SPECIES_ELEKID"
                     },
                     "minLevel": 21,
                     "maxLevel": 23
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_EMPOLEON",
+                        "silver": "SPECIES_ELEKID"
                     },
                     "minLevel": 21,
                     "maxLevel": 23
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_LINOONE",
                     "minLevel": 21,
                     "maxLevel": 23
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_LINOONE",
                     "minLevel": 21,
                     "maxLevel": 23
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_LINOONE",
                     "minLevel": 21,
                     "maxLevel": 23
                 }
             ],
             "RareMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_EXEGGUTOR",
                     "minLevel": 26,
                     "maxLevel": 34
                 },
                 {
-                    "species": "SPECIES_TANGELA",
+                    "species": "SPECIES_TOGEPI",
                     "minLevel": 26,
                     "maxLevel": 34
                 },
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_EXEGGUTOR",
                     "minLevel": 26,
                     "maxLevel": 34
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_LINOONE",
                     "minLevel": 26,
                     "maxLevel": 34
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_LINOONE",
                     "minLevel": 26,
                     "maxLevel": 34
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_LINOONE",
                     "minLevel": 26,
                     "maxLevel": 34
                 }
@@ -10487,70 +10487,70 @@
         "Map": "T20",
             "CommonMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_CACNEA",
                     "minLevel": 2,
                     "maxLevel": 3
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_IGGLYBUFF",
                     "minLevel": 2,
                     "maxLevel": 3
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_IGGLYBUFF",
                     "minLevel": 2,
                     "maxLevel": 3
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_HONCHKROW",
                     "minLevel": 2,
                     "maxLevel": 3
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_HONCHKROW",
                     "minLevel": 2,
                     "maxLevel": 3
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_HONCHKROW",
                     "minLevel": 2,
                     "maxLevel": 3
                 }
             ],
             "RareMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_CACNEA",
                     "minLevel": 4,
                     "maxLevel": 5
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_TYRANITAR",
+                        "silver": "SPECIES_BLASTOISE"
                     },
                     "minLevel": 4,
                     "maxLevel": 5
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_TYRANITAR",
+                        "silver": "SPECIES_BLASTOISE"
                     },
                     "minLevel": 4,
                     "maxLevel": 5
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_HONCHKROW",
                     "minLevel": 4,
                     "maxLevel": 5
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_HONCHKROW",
                     "minLevel": 4,
                     "maxLevel": 5
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_HONCHKROW",
                     "minLevel": 4,
                     "maxLevel": 5
                 }
@@ -10738,102 +10738,102 @@
         "Map": "T21",
             "CommonMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_EEVEE",
                     "minLevel": 2,
                     "maxLevel": 3
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_SILCOON",
                     "minLevel": 2,
                     "maxLevel": 3
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_SILCOON",
                     "minLevel": 2,
                     "maxLevel": 3
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_BELLOSSOM",
                     "minLevel": 2,
                     "maxLevel": 3
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_BELLOSSOM",
                     "minLevel": 2,
                     "maxLevel": 3
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_BELLOSSOM",
                     "minLevel": 2,
                     "maxLevel": 3
                 }
             ],
             "RareMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_EEVEE",
                     "minLevel": 4,
                     "maxLevel": 5
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_SPINDA",
+                        "silver": "SPECIES_ELECTABUZZ"
                     },
                     "minLevel": 4,
                     "maxLevel": 5
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_SPINDA",
+                        "silver": "SPECIES_ELECTABUZZ"
                     },
                     "minLevel": 4,
                     "maxLevel": 5
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_BELLOSSOM",
                     "minLevel": 4,
                     "maxLevel": 5
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_BELLOSSOM",
                     "minLevel": 4,
                     "maxLevel": 5
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_BELLOSSOM",
                     "minLevel": 4,
                     "maxLevel": 5
                 }
             ],
             "SecretMons": [
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_BELLOSSOM",
                     "minLevel": 18,
                     "maxLevel": 20
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_BELLOSSOM",
                     "minLevel": 18,
                     "maxLevel": 20
                 },
                 {
-                    "species": "SPECIES_TAILLOW",
+                    "species": "SPECIES_MARILL",
                     "minLevel": 18,
                     "maxLevel": 20
                 },
                 {
-                    "species": "SPECIES_TAILLOW",
+                    "species": "SPECIES_MARILL",
                     "minLevel": 18,
                     "maxLevel": 20
                 },
                 {
-                    "species": "SPECIES_TAILLOW",
+                    "species": "SPECIES_MARILL",
                     "minLevel": 18,
                     "maxLevel": 20
                 },
                 {
-                    "species": "SPECIES_TAILLOW",
+                    "species": "SPECIES_MARILL",
                     "minLevel": 21,
                     "maxLevel": 25
                 }
@@ -11001,64 +11001,64 @@
         "Map": "T22",
             "CommonMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_LUGIA",
                     "minLevel": 2,
                     "maxLevel": 3
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_GOLBAT",
                     "minLevel": 10,
                     "maxLevel": 10
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_GOLBAT",
                     "minLevel": 10,
                     "maxLevel": 10
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_FLAREON",
                     "minLevel": 10,
                     "maxLevel": 10
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_FLAREON",
                     "minLevel": 10,
                     "maxLevel": 10
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_FLAREON",
                     "minLevel": 10,
                     "maxLevel": 10
                 }
             ],
             "RareMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_LUGIA",
                     "minLevel": 4,
                     "maxLevel": 5
                 },
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_LUGIA",
                     "minLevel": 10,
                     "maxLevel": 10
                 },
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_LUGIA",
                     "minLevel": 10,
                     "maxLevel": 10
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_FLAREON",
                     "minLevel": 10,
                     "maxLevel": 10
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_FLAREON",
                     "minLevel": 10,
                     "maxLevel": 10
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_FLAREON",
                     "minLevel": 10,
                     "maxLevel": 10
                 }
@@ -11358,64 +11358,64 @@
         "Map": "T23",
             "CommonMons": [
                 {
-                    "species": "SPECIES_SPEAROW",
+                    "species": "SPECIES_HUNTAIL",
                     "minLevel": 3,
                     "maxLevel": 5
                 },
                 {
-                    "species": "SPECIES_HERACROSS",
+                    "species": "SPECIES_REMORAID",
                     "minLevel": 3,
                     "maxLevel": 5
                 },
                 {
-                    "species": "SPECIES_HERACROSS",
+                    "species": "SPECIES_REMORAID",
                     "minLevel": 3,
                     "maxLevel": 5
                 },
                 {
-                    "species": "SPECIES_AIPOM",
+                    "species": "SPECIES_WALREIN",
                     "minLevel": 3,
                     "maxLevel": 5
                 },
                 {
-                    "species": "SPECIES_AIPOM",
+                    "species": "SPECIES_WALREIN",
                     "minLevel": 3,
                     "maxLevel": 5
                 },
                 {
-                    "species": "SPECIES_AIPOM",
+                    "species": "SPECIES_WALREIN",
                     "minLevel": 3,
                     "maxLevel": 5
                 }
             ],
             "RareMons": [
                 {
-                    "species": "SPECIES_SPEAROW",
+                    "species": "SPECIES_HUNTAIL",
                     "minLevel": 6,
                     "maxLevel": 8
                 },
                 {
-                    "species": "SPECIES_SPEAROW",
+                    "species": "SPECIES_HUNTAIL",
                     "minLevel": 6,
                     "maxLevel": 8
                 },
                 {
-                    "species": "SPECIES_SPEAROW",
+                    "species": "SPECIES_HUNTAIL",
                     "minLevel": 6,
                     "maxLevel": 8
                 },
                 {
-                    "species": "SPECIES_AIPOM",
+                    "species": "SPECIES_WALREIN",
                     "minLevel": 6,
                     "maxLevel": 8
                 },
                 {
-                    "species": "SPECIES_AIPOM",
+                    "species": "SPECIES_WALREIN",
                     "minLevel": 6,
                     "maxLevel": 8
                 },
                 {
-                    "species": "SPECIES_AIPOM",
+                    "species": "SPECIES_WALREIN",
                     "minLevel": 6,
                     "maxLevel": 8
                 }
@@ -11611,70 +11611,70 @@
         "Map": "T27",
             "CommonMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_HARIYAMA",
                     "minLevel": 12,
                     "maxLevel": 14
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_MUNCHLAX",
                     "minLevel": 12,
                     "maxLevel": 14
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_MUNCHLAX",
                     "minLevel": 12,
                     "maxLevel": 14
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_PHIONE",
                     "minLevel": 12,
                     "maxLevel": 14
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_PHIONE",
                     "minLevel": 12,
                     "maxLevel": 14
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_PHIONE",
                     "minLevel": 12,
                     "maxLevel": 14
                 }
             ],
             "RareMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_HARIYAMA",
                     "minLevel": 15,
                     "maxLevel": 17
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_GLIGAR",
+                        "silver": "SPECIES_DRIFLOON"
                     },
                     "minLevel": 15,
                     "maxLevel": 17
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_GLIGAR",
+                        "silver": "SPECIES_DRIFLOON"
                     },
                     "minLevel": 15,
                     "maxLevel": 17
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_PHIONE",
                     "minLevel": 15,
                     "maxLevel": 17
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_PHIONE",
                     "minLevel": 15,
                     "maxLevel": 17
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_PHIONE",
                     "minLevel": 15,
                     "maxLevel": 17
                 }
@@ -11952,17 +11952,7 @@
         "Map": "T29",
             "CommonMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
-                    "minLevel": 14,
-                    "maxLevel": 16
-                },
-                {
-                    "species": "SPECIES_PINECO",
-                    "minLevel": 14,
-                    "maxLevel": 16
-                },
-                {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_DELCATTY",
                     "minLevel": 14,
                     "maxLevel": 16
                 },
@@ -11977,39 +11967,49 @@
                     "maxLevel": 16
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_AIPOM",
+                    "minLevel": 14,
+                    "maxLevel": 16
+                },
+                {
+                    "species": "SPECIES_AIPOM",
+                    "minLevel": 14,
+                    "maxLevel": 16
+                },
+                {
+                    "species": "SPECIES_AIPOM",
                     "minLevel": 14,
                     "maxLevel": 16
                 }
             ],
             "RareMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_DELCATTY",
                     "minLevel": 17,
                     "maxLevel": 19
                 },
                 {
-                    "species": "SPECIES_VENONAT",
+                    "species": "SPECIES_JIGGLYPUFF",
                     "minLevel": 17,
                     "maxLevel": 19
                 },
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_DELCATTY",
                     "minLevel": 17,
                     "maxLevel": 19
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_AIPOM",
                     "minLevel": 17,
                     "maxLevel": 19
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_AIPOM",
                     "minLevel": 17,
                     "maxLevel": 19
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_AIPOM",
                     "minLevel": 17,
                     "maxLevel": 19
                 }
@@ -12271,64 +12271,64 @@
         "Map": "T31",
             "CommonMons": [
                 {
-                    "species": "SPECIES_HERACROSS",
+                    "species": "SPECIES_SHINX",
                     "minLevel": 39,
                     "maxLevel": 40
                 },
                 {
-                    "species": "SPECIES_AIPOM",
+                    "species": "SPECIES_VILEPLUME",
                     "minLevel": 39,
                     "maxLevel": 40
                 },
                 {
-                    "species": "SPECIES_AIPOM",
+                    "species": "SPECIES_VILEPLUME",
                     "minLevel": 39,
                     "maxLevel": 40
                 },
                 {
-                    "species": "SPECIES_NATU",
+                    "species": "SPECIES_TREECKO",
                     "minLevel": 39,
                     "maxLevel": 40
                 },
                 {
-                    "species": "SPECIES_NATU",
+                    "species": "SPECIES_TREECKO",
                     "minLevel": 39,
                     "maxLevel": 40
                 },
                 {
-                    "species": "SPECIES_NATU",
+                    "species": "SPECIES_TREECKO",
                     "minLevel": 39,
                     "maxLevel": 40
                 }
             ],
             "RareMons": [
                 {
-                    "species": "SPECIES_HERACROSS",
+                    "species": "SPECIES_SHINX",
                     "minLevel": 41,
                     "maxLevel": 43
                 },
                 {
-                    "species": "SPECIES_AIPOM",
+                    "species": "SPECIES_VILEPLUME",
                     "minLevel": 41,
                     "maxLevel": 43
                 },
                 {
-                    "species": "SPECIES_AIPOM",
+                    "species": "SPECIES_VILEPLUME",
                     "minLevel": 41,
                     "maxLevel": 43
                 },
                 {
-                    "species": "SPECIES_NATU",
+                    "species": "SPECIES_TREECKO",
                     "minLevel": 41,
                     "maxLevel": 43
                 },
                 {
-                    "species": "SPECIES_NATU",
+                    "species": "SPECIES_TREECKO",
                     "minLevel": 41,
                     "maxLevel": 43
                 },
                 {
-                    "species": "SPECIES_NATU",
+                    "species": "SPECIES_TREECKO",
                     "minLevel": 41,
                     "maxLevel": 43
                 }
@@ -12408,70 +12408,70 @@
         "Map": "W21",
             "CommonMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_FEAROW",
                     "minLevel": 24,
                     "maxLevel": 26
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_DRATINI",
+                        "silver": "SPECIES_LATIOS"
                     },
                     "minLevel": 24,
                     "maxLevel": 26
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_DRATINI",
+                        "silver": "SPECIES_LATIOS"
                     },
                     "minLevel": 24,
                     "maxLevel": 26
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_CHERRIM",
                     "minLevel": 24,
                     "maxLevel": 26
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_CHERRIM",
                     "minLevel": 24,
                     "maxLevel": 26
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_CHERRIM",
                     "minLevel": 24,
                     "maxLevel": 26
                 }
             ],
             "RareMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_FEAROW",
                     "minLevel": 27,
                     "maxLevel": 30
                 },
                 {
-                    "species": "SPECIES_TANGELA",
+                    "species": "SPECIES_GYARADOS",
                     "minLevel": 27,
                     "maxLevel": 30
                 },
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_FEAROW",
                     "minLevel": 27,
                     "maxLevel": 30
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_CHERRIM",
                     "minLevel": 27,
                     "maxLevel": 30
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_CHERRIM",
                     "minLevel": 27,
                     "maxLevel": 30
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_CHERRIM",
                     "minLevel": 27,
                     "maxLevel": 30
                 }
@@ -12531,102 +12531,102 @@
         "Map": "D22R0101",
             "CommonMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_SPIRITOMB",
                     "minLevel": 10,
                     "maxLevel": 12
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_WHISMUR",
                     "minLevel": 10,
                     "maxLevel": 12
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_WHISMUR",
                     "minLevel": 10,
                     "maxLevel": 12
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_MANTINE",
                     "minLevel": 10,
                     "maxLevel": 12
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_MANTINE",
                     "minLevel": 10,
                     "maxLevel": 12
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_MANTINE",
                     "minLevel": 10,
                     "maxLevel": 12
                 }
             ],
             "RareMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_SPIRITOMB",
                     "minLevel": 13,
                     "maxLevel": 15
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_WHISMUR",
+                        "silver": "SPECIES_DUSKULL"
                     },
                     "minLevel": 13,
                     "maxLevel": 15
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_WHISMUR",
+                        "silver": "SPECIES_DUSKULL"
                     },
                     "minLevel": 13,
                     "maxLevel": 15
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_MANTINE",
                     "minLevel": 13,
                     "maxLevel": 15
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_MANTINE",
                     "minLevel": 13,
                     "maxLevel": 15
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_MANTINE",
                     "minLevel": 13,
                     "maxLevel": 15
                 }
             ],
             "SecretMons": [
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_MANTINE",
                     "minLevel": 18,
                     "maxLevel": 20
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_MANTINE",
                     "minLevel": 18,
                     "maxLevel": 20
                 },
                 {
-                    "species": "SPECIES_CHERUBI",
+                    "species": "SPECIES_CRAWDAUNT",
                     "minLevel": 18,
                     "maxLevel": 20
                 },
                 {
-                    "species": "SPECIES_CHERUBI",
+                    "species": "SPECIES_CRAWDAUNT",
                     "minLevel": 18,
                     "maxLevel": 20
                 },
                 {
-                    "species": "SPECIES_CHERUBI",
+                    "species": "SPECIES_CRAWDAUNT",
                     "minLevel": 18,
                     "maxLevel": 20
                 },
                 {
-                    "species": "SPECIES_CHERUBI",
+                    "species": "SPECIES_CRAWDAUNT",
                     "minLevel": 21,
                     "maxLevel": 25
                 }
@@ -13086,43 +13086,43 @@
         "Map": "D36R0101",
             "CommonMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_KABUTOPS",
                     "minLevel": 3,
                     "maxLevel": 5
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_CATERPIE",
-                        "silver": "SPECIES_WEEDLE"
+                        "gold": "SPECIES_LUNATONE",
+                        "silver": "SPECIES_CHERUBI"
                     },
                     "minLevel": 3,
                     "maxLevel": 5
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_CATERPIE",
-                        "silver": "SPECIES_WEEDLE"
+                        "gold": "SPECIES_LUNATONE",
+                        "silver": "SPECIES_CHERUBI"
                     },
                     "minLevel": 3,
                     "maxLevel": 5
                 },
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_KABUTOPS",
                     "minLevel": 3,
                     "maxLevel": 5
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_METAPOD",
-                        "silver": "SPECIES_KAKUNA"
+                        "gold": "SPECIES_ELECTIVIRE",
+                        "silver": "SPECIES_PORYGON"
                     },
                     "minLevel": 3,
                     "maxLevel": 5
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_METAPOD",
-                        "silver": "SPECIES_KAKUNA"
+                        "gold": "SPECIES_ELECTIVIRE",
+                        "silver": "SPECIES_PORYGON"
                     },
                     "minLevel": 3,
                     "maxLevel": 5
@@ -13130,37 +13130,37 @@
             ],
             "RareMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_KABUTOPS",
                     "minLevel": 6,
                     "maxLevel": 8
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_STARYU",
                     "minLevel": 6,
                     "maxLevel": 8
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_STARYU",
                     "minLevel": 6,
                     "maxLevel": 8
                 },
                 {
-                    "species": "SPECIES_NOCTOWL",
+                    "species": "SPECIES_RAICHU",
                     "minLevel": 6,
                     "maxLevel": 8
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_BUTTERFREE",
-                        "silver": "SPECIES_BEEDRILL"
+                        "gold": "SPECIES_POLIWHIRL",
+                        "silver": "SPECIES_SNUBBULL"
                     },
                     "minLevel": 6,
                     "maxLevel": 8
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_BUTTERFREE",
-                        "silver": "SPECIES_BEEDRILL"
+                        "gold": "SPECIES_POLIWHIRL",
+                        "silver": "SPECIES_SNUBBULL"
                     },
                     "minLevel": 6,
                     "maxLevel": 8
@@ -14111,43 +14111,43 @@
         "Map": "D46R0101",
             "CommonMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_SHUPPET",
                     "minLevel": 3,
                     "maxLevel": 4
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SEEDOT",
-                        "silver": "SPECIES_SHROOMISH"
+                        "gold": "SPECIES_STUNKY",
+                        "silver": "SPECIES_BLISSEY"
                     },
                     "minLevel": 3,
                     "maxLevel": 4
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SEEDOT",
-                        "silver": "SPECIES_SHROOMISH"
+                        "gold": "SPECIES_STUNKY",
+                        "silver": "SPECIES_BLISSEY"
                     },
                     "minLevel": 3,
                     "maxLevel": 4
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_MAKUHITA",
+                        "silver": "SPECIES_SNORUNT"
                     },
                     "minLevel": 3,
                     "maxLevel": 4
                 },
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_SHUPPET",
                     "minLevel": 3,
                     "maxLevel": 4
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SHROOMISH",
-                        "silver": "SPECIES_SEEDOT"
+                        "gold": "SPECIES_BLISSEY",
+                        "silver": "SPECIES_STUNKY"
                     },
                     "minLevel": 3,
                     "maxLevel": 4
@@ -14155,43 +14155,43 @@
             ],
             "RareMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_SHUPPET",
                     "minLevel": 5,
                     "maxLevel": 7
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SEEDOT",
-                        "silver": "SPECIES_SHROOMISH"
+                        "gold": "SPECIES_STUNKY",
+                        "silver": "SPECIES_BLISSEY"
                     },
                     "minLevel": 5,
                     "maxLevel": 7
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SEEDOT",
-                        "silver": "SPECIES_SHROOMISH"
+                        "gold": "SPECIES_STUNKY",
+                        "silver": "SPECIES_BLISSEY"
                     },
                     "minLevel": 5,
                     "maxLevel": 7
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_ARIADOS",
-                        "silver": "SPECIES_LEDIAN"
+                        "gold": "SPECIES_BEEDRILL",
+                        "silver": "SPECIES_SNUBBULL"
                     },
                     "minLevel": 5,
                     "maxLevel": 7
                 },
                 {
-                    "species": "SPECIES_NOCTOWL",
+                    "species": "SPECIES_ARON",
                     "minLevel": 5,
                     "maxLevel": 7
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SHROOMISH",
-                        "silver": "SPECIES_SEEDOT"
+                        "gold": "SPECIES_BLISSEY",
+                        "silver": "SPECIES_STUNKY"
                     },
                     "minLevel": 5,
                     "maxLevel": 7
@@ -14566,70 +14566,70 @@
         "Map": "R47",
             "CommonMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_ARCANINE",
                     "minLevel": 15,
                     "maxLevel": 16
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_WAILORD",
                     "minLevel": 15,
                     "maxLevel": 16
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_WAILORD",
                     "minLevel": 15,
                     "maxLevel": 16
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_GRIMER",
                     "minLevel": 15,
                     "maxLevel": 16
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_GRIMER",
                     "minLevel": 15,
                     "maxLevel": 16
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_GRIMER",
                     "minLevel": 15,
                     "maxLevel": 16
                 }
             ],
             "RareMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_ARCANINE",
                     "minLevel": 17,
                     "maxLevel": 18
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_METAGROSS",
+                        "silver": "SPECIES_MUDKIP"
                     },
                     "minLevel": 17,
                     "maxLevel": 18
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_METAGROSS",
+                        "silver": "SPECIES_MUDKIP"
                     },
                     "minLevel": 17,
                     "maxLevel": 18
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_GRIMER",
                     "minLevel": 17,
                     "maxLevel": 18
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_GRIMER",
                     "minLevel": 17,
                     "maxLevel": 18
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_GRIMER",
                     "minLevel": 17,
                     "maxLevel": 18
                 }
@@ -14637,40 +14637,40 @@
             "SecretMons": [
                 {
                     "species": {
-                        "gold": "SPECIES_METAPOD",
-                        "silver": "SPECIES_KAKUNA"
+                        "gold": "SPECIES_ELEKID",
+                        "silver": "SPECIES_ELEKID"
                     },
                     "minLevel": 25,
                     "maxLevel": 28
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_BUTTERFREE",
-                        "silver": "SPECIES_BEEDRILL"
+                        "gold": "SPECIES_LICKILICKY",
+                        "silver": "SPECIES_NATU"
                     },
                     "minLevel": 25,
                     "maxLevel": 28
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_BUTTERFREE",
-                        "silver": "SPECIES_BEEDRILL"
+                        "gold": "SPECIES_LICKILICKY",
+                        "silver": "SPECIES_NATU"
                     },
                     "minLevel": 25,
                     "maxLevel": 28
                 },
                 {
-                    "species": "SPECIES_HERACROSS",
+                    "species": "SPECIES_DIALGA",
                     "minLevel": 25,
                     "maxLevel": 28
                 },
                 {
-                    "species": "SPECIES_HERACROSS",
+                    "species": "SPECIES_DIALGA",
                     "minLevel": 25,
                     "maxLevel": 28
                 },
                 {
-                    "species": "SPECIES_HERACROSS",
+                    "species": "SPECIES_DIALGA",
                     "minLevel": 27,
                     "maxLevel": 30
                 }
@@ -14840,70 +14840,70 @@
         "Map": "R48",
             "CommonMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_CLOYSTER",
                     "minLevel": 15,
                     "maxLevel": 16
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_DUSKULL",
                     "minLevel": 15,
                     "maxLevel": 16
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_DUSKULL",
                     "minLevel": 15,
                     "maxLevel": 16
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_MIGHTYENA",
                     "minLevel": 15,
                     "maxLevel": 16
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_MIGHTYENA",
                     "minLevel": 15,
                     "maxLevel": 16
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_MIGHTYENA",
                     "minLevel": 15,
                     "maxLevel": 16
                 }
             ],
             "RareMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_CLOYSTER",
                     "minLevel": 17,
                     "maxLevel": 18
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_GRUMPIG",
+                        "silver": "SPECIES_BIDOOF"
                     },
                     "minLevel": 17,
                     "maxLevel": 18
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_GRUMPIG",
+                        "silver": "SPECIES_BIDOOF"
                     },
                     "minLevel": 17,
                     "maxLevel": 18
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_MIGHTYENA",
                     "minLevel": 17,
                     "maxLevel": 18
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_MIGHTYENA",
                     "minLevel": 17,
                     "maxLevel": 18
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_MIGHTYENA",
                     "minLevel": 17,
                     "maxLevel": 18
                 }
@@ -15145,70 +15145,70 @@
         "Map": "D47",
             "CommonMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_VENONAT",
                     "minLevel": 14,
                     "maxLevel": 16
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_MOLTRES",
                     "minLevel": 14,
                     "maxLevel": 16
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_MOLTRES",
                     "minLevel": 14,
                     "maxLevel": 16
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_MAGNEMITE",
                     "minLevel": 14,
                     "maxLevel": 16
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_MAGNEMITE",
                     "minLevel": 14,
                     "maxLevel": 16
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_MAGNEMITE",
                     "minLevel": 14,
                     "maxLevel": 16
                 }
             ],
             "RareMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_VENONAT",
                     "minLevel": 17,
                     "maxLevel": 19
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_LEDYBA",
+                        "silver": "SPECIES_GLALIE"
                     },
                     "minLevel": 17,
                     "maxLevel": 19
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_LEDYBA",
+                        "silver": "SPECIES_GLALIE"
                     },
                     "minLevel": 17,
                     "maxLevel": 19
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_MAGNEMITE",
                     "minLevel": 17,
                     "maxLevel": 19
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_MAGNEMITE",
                     "minLevel": 17,
                     "maxLevel": 19
                 },
                 {
-                    "species": "SPECIES_EXEGGCUTE",
+                    "species": "SPECIES_MAGNEMITE",
                     "minLevel": 17,
                     "maxLevel": 19
                 }
@@ -17304,70 +17304,70 @@
         "Map": "R02R0101",
             "CommonMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_OMASTAR",
                     "minLevel": 3,
                     "maxLevel": 4
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_ANORITH",
                     "minLevel": 3,
                     "maxLevel": 4
                 },
                 {
-                    "species": "SPECIES_PINECO",
+                    "species": "SPECIES_ANORITH",
                     "minLevel": 3,
                     "maxLevel": 4
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_DRATINI",
                     "minLevel": 3,
                     "maxLevel": 4
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_DRATINI",
                     "minLevel": 3,
                     "maxLevel": 4
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_DRATINI",
                     "minLevel": 3,
                     "maxLevel": 4
                 }
             ],
             "RareMons": [
                 {
-                    "species": "SPECIES_HOOTHOOT",
+                    "species": "SPECIES_OMASTAR",
                     "minLevel": 5,
                     "maxLevel": 7
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_EXEGGCUTE",
+                        "silver": "SPECIES_PARASECT"
                     },
                     "minLevel": 5,
                     "maxLevel": 7
                 },
                 {
                     "species": {
-                        "gold": "SPECIES_SPINARAK",
-                        "silver": "SPECIES_LEDYBA"
+                        "gold": "SPECIES_EXEGGCUTE",
+                        "silver": "SPECIES_PARASECT"
                     },
                     "minLevel": 5,
                     "maxLevel": 7
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_DRATINI",
                     "minLevel": 5,
                     "maxLevel": 7
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_DRATINI",
                     "minLevel": 5,
                     "maxLevel": 7
                 },
                 {
-                    "species": "SPECIES_WURMPLE",
+                    "species": "SPECIES_DRATINI",
                     "minLevel": 5,
                     "maxLevel": 7
                 }
@@ -17579,64 +17579,64 @@
         "Map": "R16R0301",
             "CommonMons": [
                 {
-                    "species": "SPECIES_SPEAROW",
+                    "species": "SPECIES_WEEDLE",
                     "minLevel": 26,
                     "maxLevel": 27
                 },
                 {
-                    "species": "SPECIES_HERACROSS",
+                    "species": "SPECIES_DEWGONG",
                     "minLevel": 26,
                     "maxLevel": 27
                 },
                 {
-                    "species": "SPECIES_HERACROSS",
+                    "species": "SPECIES_DEWGONG",
                     "minLevel": 26,
                     "maxLevel": 27
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_GROWLITHE",
                     "minLevel": 26,
                     "maxLevel": 27
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_GROWLITHE",
                     "minLevel": 26,
                     "maxLevel": 27
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_GROWLITHE",
                     "minLevel": 26,
                     "maxLevel": 27
                 }
             ],
             "RareMons": [
                 {
-                    "species": "SPECIES_SPEAROW",
+                    "species": "SPECIES_WEEDLE",
                     "minLevel": 29,
                     "maxLevel": 30
                 },
                 {
-                    "species": "SPECIES_SPEAROW",
+                    "species": "SPECIES_WEEDLE",
                     "minLevel": 29,
                     "maxLevel": 30
                 },
                 {
-                    "species": "SPECIES_SPEAROW",
+                    "species": "SPECIES_WEEDLE",
                     "minLevel": 29,
                     "maxLevel": 30
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_GROWLITHE",
                     "minLevel": 29,
                     "maxLevel": 30
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_GROWLITHE",
                     "minLevel": 29,
                     "maxLevel": 30
                 },
                 {
-                    "species": "SPECIES_COMBEE",
+                    "species": "SPECIES_GROWLITHE",
                     "minLevel": 29,
                     "maxLevel": 30
                 }
@@ -18000,64 +18000,64 @@
         "Map": "D41R0103",
             "CommonMons": [
                 {
-                    "species": "SPECIES_HERACROSS",
+                    "species": "SPECIES_INFERNAPE",
                     "minLevel": 42,
                     "maxLevel": 44
                 },
                 {
-                    "species": "SPECIES_AIPOM",
+                    "species": "SPECIES_INFERNAPE",
                     "minLevel": 42,
                     "maxLevel": 44
                 },
                 {
-                    "species": "SPECIES_AIPOM",
+                    "species": "SPECIES_INFERNAPE",
                     "minLevel": 42,
                     "maxLevel": 44
                 },
                 {
-                    "species": "SPECIES_NATU",
+                    "species": "SPECIES_SCEPTILE",
                     "minLevel": 42,
                     "maxLevel": 44
                 },
                 {
-                    "species": "SPECIES_NATU",
+                    "species": "SPECIES_SCEPTILE",
                     "minLevel": 42,
                     "maxLevel": 44
                 },
                 {
-                    "species": "SPECIES_NATU",
+                    "species": "SPECIES_SCEPTILE",
                     "minLevel": 42,
                     "maxLevel": 44
                 }
             ],
             "RareMons": [
                 {
-                    "species": "SPECIES_HERACROSS",
+                    "species": "SPECIES_INFERNAPE",
                     "minLevel": 45,
                     "maxLevel": 48
                 },
                 {
-                    "species": "SPECIES_AIPOM",
+                    "species": "SPECIES_INFERNAPE",
                     "minLevel": 45,
                     "maxLevel": 48
                 },
                 {
-                    "species": "SPECIES_AIPOM",
+                    "species": "SPECIES_INFERNAPE",
                     "minLevel": 45,
                     "maxLevel": 48
                 },
                 {
-                    "species": "SPECIES_NATU",
+                    "species": "SPECIES_SCEPTILE",
                     "minLevel": 45,
                     "maxLevel": 48
                 },
                 {
-                    "species": "SPECIES_NATU",
+                    "species": "SPECIES_SCEPTILE",
                     "minLevel": 45,
                     "maxLevel": 48
                 },
                 {
-                    "species": "SPECIES_NATU",
+                    "species": "SPECIES_SCEPTILE",
                     "minLevel": 45,
                     "maxLevel": 48
                 }

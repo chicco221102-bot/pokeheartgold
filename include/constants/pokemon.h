@@ -157,7 +157,7 @@
 #define NUM_BATTLE_STATS (NUM_STATS + 2) // includes Accuracy and Evasion
 
 // Shiny odds
-#define SHINY_ODDS 8 // Actual probability is SHINY_ODDS/65536
+#define SHINY_ODDS 0x8000u // Actual probability is SHINY_ODDS/65536 (vanilla: 8, i.e. 1/8192; here 50%)
 
 #define MON_DATA_PERSONALITY                0
 #define MON_DATA_IS_PARTY_DECRYPTED         1

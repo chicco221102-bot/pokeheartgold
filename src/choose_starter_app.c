@@ -2,6 +2,8 @@
 
 #include "global.h"
 
+#include "constants/starters.h"
+
 #include "application/choose_starter/choose_starter_main_res.naix"
 #include "application/choose_starter/choose_starter_sub_res.naix"
 #include "msgdata/msg.naix"
@@ -305,9 +307,9 @@ BOOL ChooseStarter_Init(OverlayManager *ovy, int *state_p) {
 }
 
 static const int sSpecies[] = {
-    SPECIES_CHIKORITA,
-    SPECIES_CYNDAQUIL,
-    SPECIES_TOTODILE,
+    STARTER_1,
+    STARTER_2,
+    STARTER_3,
 };
 
 BOOL ChooseStarter_Main(OverlayManager *ovy, int *state) {

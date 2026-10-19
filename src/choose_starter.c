@@ -3,6 +3,7 @@
 #include "constants/balls.h"
 #include "constants/items.h"
 #include "constants/species.h"
+#include "constants/starters.h"
 
 #include "field_system.h"
 #include "launch_application.h"
@@ -43,9 +44,9 @@ static BOOL CreateStarter(TaskManager *taskManager) {
         }
         {
             const int species[] = {
-                SPECIES_CHIKORITA,
-                SPECIES_CYNDAQUIL,
-                SPECIES_TOTODILE,
+                STARTER_1,
+                STARTER_2,
+                STARTER_3,
             };
             mapsec = MapHeader_GetMapSec(fieldSystem->location->mapId); // sp14
 
