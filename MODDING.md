@@ -16,7 +16,7 @@ dove si trova ogni cosa e come ricompilare la ROM.
 | START nel menu principale = Nuova partita, con conferma | `src/application/main_menu/main_menu.c` |
 | Nuova partita: maschio "Chicco", si parte nel laboratorio di Elm davanti alle 3 Poké Ball, con Pokégear | `src/overlay_36.c` |
 | Si può salvare una nuova partita sopra quella vecchia (chiede conferma) | `src/save.c` |
-| Starter, Pokémon selvatici (erba, surf, pesca, Spaccaroccia, sciami, radio, Bottintesta, Zona Safari, Gara Coleotteri) e starter del rivale casuali **per ogni partita**, ricavati dall'ID Allenatore | `src/randomizer.c` |
+| Starter, Pokémon selvatici (erba, surf, pesca, Spaccaroccia, sciami, radio, Bottintesta, Zona Safari, Gara Coleotteri) e squadre di tutti gli allenatori (capipalestra, Lega, rivale) casuali **per ogni partita**, ricavati dall'ID Allenatore; gli allenatori usano le mosse naturali | `src/randomizer.c` |
 | Probabilità shiny 50% | `SHINY_ODDS` in `include/constants/pokemon.h` |
 | Tenere premuto **R** fa scorrere i dialoghi; testo VELOCE di default | `src/render_text.c`, `src/text.c`, `src/scrcmd_c.c`, `src/options.c` |
 | Riepilogo Pokémon, pagina statistiche: **SELECT** alterna Statistiche / EV / IV / Base | `src/pokemon_summary_stat_view.c` |

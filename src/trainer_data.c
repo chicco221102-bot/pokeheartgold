@@ -38,7 +38,7 @@ void EnemyTrainerSet_Init(BattleSetup *battleSetup, SaveData *saveData, enum Hea
                 String_Delete(string);
             }
             CreateNPCTrainerParty(battleSetup, i, heapID);
-            Randomizer_ApplyRivalStarter(battleSetup, i, saveData);
+            Randomizer_RandomizeTrainerParty(battleSetup, i, saveData);
         }
     }
     battleSetup->battleType |= trainer.data.doubleBattle;

@@ -211,30 +211,51 @@ static u16 Randomizer_EvolveToLevel(u16 species, int level) {
     return species;
 }
 
-// Swap the rival's starter for the matching randomized starter, evolved to
-// fit the battle's level. It gets its natural level-up moves.
-void Randomizer_ApplyRivalStarter(BattleSetup *battleSetup, int partyIndex, SaveData *saveData) {
+// Replace a party slot with `species` at the same level, keeping its held
+// item and IVs. The new Pokémon gets its natural level-up moves.
+static void Randomizer_ReplacePartyMon(Pokemon *mon, u16 species) {
+    int level = GetMonData(mon, MON_DATA_LEVEL, NULL);
+    int iv = GetMonData(mon, MON_DATA_HP_IV, NULL); // trainer Pokémon have the same IV in every stat
+    u32 personality = GetMonData(mon, MON_DATA_PERSONALITY, NULL);
+    u16 heldItem = GetMonData(mon, MON_DATA_HELD_ITEM, NULL);
+
+    CreateMon(mon, species, level, iv, TRUE, personality, OT_ID_RANDOM_NO_SHINY, 0);
+    SetMonData(mon, MON_DATA_HELD_ITEM, &heldItem);
+}
+
+// Randomize every Pokémon of a trainer (regular trainers, Gym Leaders, Elite
+// Four, Champion, rival...). Each trainer gets the same team for the whole
+// save. The rival's starter is the starter matching the player's choice,
+// evolved to fit the battle's level.
+void Randomizer_RandomizeTrainerParty(BattleSetup *battleSetup, int partyIndex, SaveData *saveData) {
     u32 trainerId = battleSetup->trainerId[partyIndex];
+    Party *party = battleSetup->party[partyIndex];
+    u32 seed = Randomizer_GetSeed(saveData);
+    int rivalSlot = -1;
+    int rivalStarterSlot = 0;
 
     for (int i = 0; i < (int)NELEMS(sRivalStarterSlots); i++) {
-        if (sRivalStarterSlots[i].trainerId != trainerId) {
+        if (sRivalStarterSlots[i].trainerId == trainerId) {
+            rivalSlot = sRivalStarterSlots[i].partySlot;
+            rivalStarterSlot = sRivalStarterSlots[i].starterSlot;
+            break;
+        }
+    }
+
+    for (int slot = 0; slot < Party_GetCount(party); slot++) {
+        Pokemon *mon = Party_GetMonByIndex(party, slot);
+        u16 species;
+
+        if (GetMonData(mon, MON_DATA_SPECIES, NULL) == SPECIES_NONE) {
             continue;
         }
-        Pokemon *mon = Party_GetMonByIndex(battleSetup->party[partyIndex], sRivalStarterSlots[i].partySlot);
-        if (mon == NULL || GetMonData(mon, MON_DATA_SPECIES, NULL) == SPECIES_NONE) {
-            return;
+        if (slot == rivalSlot) {
+            u16 starters[3];
+            Randomizer_GetStarters(saveData, starters);
+            species = Randomizer_EvolveToLevel(starters[rivalStarterSlot], GetMonData(mon, MON_DATA_LEVEL, NULL));
+        } else {
+            species = Randomizer_PickSpecies(seed, 0x54524E52 ^ trainerId, slot); // 'TRNR'
         }
-
-        u16 starters[3];
-        Randomizer_GetStarters(saveData, starters);
-        int level = GetMonData(mon, MON_DATA_LEVEL, NULL);
-        int iv = GetMonData(mon, MON_DATA_HP_IV, NULL);
-        u32 personality = GetMonData(mon, MON_DATA_PERSONALITY, NULL);
-        u16 heldItem = GetMonData(mon, MON_DATA_HELD_ITEM, NULL);
-        u16 species = Randomizer_EvolveToLevel(starters[sRivalStarterSlots[i].starterSlot], level);
-
-        CreateMon(mon, species, level, iv, TRUE, personality, OT_ID_RANDOM_NO_SHINY, 0);
-        SetMonData(mon, MON_DATA_HELD_ITEM, &heldItem);
-        return;
+        Randomizer_ReplacePartyMon(mon, species);
     }
 }
