@@ -1140,6 +1140,13 @@ _02088BFA:
 	mov r0, #0xa
 	pop {r4, r5, r6, pc}
 _02088C12:
+	add r0, r5, #0
+	bl PokemonSummary_HandleStatViewInput
+	cmp r0, #0
+	beq _02088C12_NoStatViewToggle
+	mov r0, #2
+	pop {r4, r5, r6, pc}
+_02088C12_NoStatViewToggle:
 	ldr r0, _02088D10 ; =0x000007BC
 	ldrsb r0, [r5, r0]
 	cmp r0, #1
@@ -2875,6 +2882,8 @@ _020899C8:
 	mov r2, #0
 	bl GetMonData
 	strh r0, [r4, #0x30]
+	add r0, r5, #0
+	bl PokemonSummary_CacheAltStats
 	add r0, r5, #0
 	mov r1, #0xa
 	mov r2, #0

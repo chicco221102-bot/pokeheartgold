@@ -1957,6 +1957,8 @@ sub_0208D178: ; 0x0208D178
 	add r0, #0x70
 	mov r3, #3
 	bl AddTextPrinterParameterizedWithColor
+	add r0, r4, #0
+	bl PokemonSummary_DrawAltStats
 	mov r0, #0x89
 	lsl r0, r0, #2
 	ldr r0, [r4, r0]

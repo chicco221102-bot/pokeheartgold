@@ -58,3 +58,4 @@
 .public sub_0208E994
 .public gOverlayTemplate_Battle
 .public gNatureStatMods
+.public PokemonSummary_DrawAltStats

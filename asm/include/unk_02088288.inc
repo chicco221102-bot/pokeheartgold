@@ -199,3 +199,5 @@
 .public gOverlayTemplate_PokemonSummary
 .public gSystem
 .public OS_IRQTable
+.public PokemonSummary_CacheAltStats
+.public PokemonSummary_HandleStatViewInput
