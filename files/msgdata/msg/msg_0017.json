@@ -62,8 +62,8 @@
       "id": "msg_0017_00005",
       "en_US": [
         " {COLOR 1}WARNING!{COLOR 0} There’s already a saved\n",
-        " game file. If you start an adventure now, \n",
-        " you won’t be able to save it."
+        " game file. Saving a new adventure will\n",
+        " overwrite it."
       ]
     },
     {

@@ -246,7 +246,12 @@ static void Save_SetExtraChunksExist(SaveData *saveData) {
 }
 
 BOOL Save_FileDoesNotBelongToPlayer(SaveData *saveData) {
-    return Save_IsNewGame(saveData) != 0 && Save_FileExists(saveData) != 0;
+#pragma unused(saveData)
+    // Vanilla refuses to save a new game over an existing save file
+    // (Save_IsNewGame && Save_FileExists). Allow it: the game then asks
+    // "There is already a saved file. Is it OK to overwrite it?" and
+    // SaveGameNormal already handles writing a new game over the old one.
+    return FALSE;
 }
 
 BOOL Save_NumModifiedPCBoxesIsMany(SaveData *saveData) {
