@@ -113,6 +113,9 @@ static BOOL CheckSavedataApp_DoMainTask(CheckSavedataApp_Data *data);
 static BOOL CheckSavedataApp_PrintMessage(CheckSavedataApp_Data *data, u32 msgNum, BOOL skipWaitingForAPress, u32 textSpeed);
 
 BOOL CheckSavedataApp_Init(OverlayManager *manager, int *state) {
+    // The title screen normally clears this before reaching the main menu;
+    // it is skipped at boot, so clear it here instead.
+    gSystem.unk70 = FALSE;
     Heap_Create(HEAP_ID_3, HEAP_ID_DELETE_SAVEDATA, 0x20000);
 
     CheckSavedataApp_Data *data = OverlayManager_CreateAndGetData(manager, sizeof(CheckSavedataApp_Data), HEAP_ID_DELETE_SAVEDATA);

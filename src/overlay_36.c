@@ -37,8 +37,6 @@
 
 #define HEAPID_OV36 (HEAP_ID_OV36)
 
-extern const OverlayManagerTemplate gApplication_OakSpeech;
-
 static BOOL ov36_App_MainMenu_SelectOption_Continue_AppInit(OverlayManager *man, int *state);
 static BOOL ov36_App_MainMenu_SelectOption_Continue_AppExec(OverlayManager *man, int *state);
 static BOOL ov36_App_MainMenu_SelectOption_Continue_AppExit(OverlayManager *man, int *state);
@@ -73,6 +71,8 @@ const OverlayManagerTemplate ov36_App_MainMenu_SelectOption_Continue = {
     .ovy_id = FS_OVERLAY_ID_NONE,
 };
 
+static const u16 sDefaultPlayerName[] = { CHAR_C, CHAR_h, CHAR_i, CHAR_c, CHAR_c, CHAR_o, EOS };
+
 static const MailMessageTemplate sMailMsgTemplates[2] = {
     {
      // ADVENTURE! EXCITED!
@@ -103,13 +103,21 @@ BOOL ov36_TitleScreen_NewGame_AppExec(OverlayManager *man, int *state) {
     SaveData *saveData = ((struct UnkStruct_02111868_sub *)OverlayManager_GetArgs(man))->saveData;
     NewGame_InitSaveData(HEAPID_OV36, saveData);
 
+    // Skip Prof. Oak's speech: always start as a boy named Chicco. The rival's
+    // name is left empty, as the speech does; it is chosen later in the game.
+    PlayerProfile *profile = Save_PlayerData_GetProfile(saveData);
+    Save_Profile_PlayerName_Set(profile, (u16 *)sDefaultPlayerName);
+    PlayerProfile_SetTrainerGender(profile, PLAYER_GENDER_MALE);
+    InitGameStateAfterOakSpeech_Internal(HEAPID_OV36, saveData, TRUE);
+    sub_0201838C(Save_PlayerData_GetIGTAddr(saveData));
+
     return TRUE;
 }
 
 BOOL ov36_TitleScreen_NewGame_AppExit(OverlayManager *man, int *state) {
 #pragma unused(man, state)
     Heap_Destroy(HEAPID_OV36);
-    RegisterMainOverlay(FS_OVERLAY_ID_NONE, &gApplication_OakSpeech);
+    RegisterMainOverlay(FS_OVERLAY_ID_NONE, &gApplication_NewGameFieldsys);
 
     return TRUE;
 }
