@@ -503,6 +503,23 @@
 #define RANGE_SINGLE_TARGET_USER_SIDE (1 << 9)
 #define RANGE_FRONT                   (1 << 10)
 
+// Move flags (MOVE_ATTRIBUTE_FLAGS)
+#define MOVE_FLAG_MAKES_CONTACT       (1 << 0)
+#define MOVE_FLAG_CAN_PROTECT         (1 << 1)
+#define MOVE_FLAG_CAN_MAGIC_COAT      (1 << 2)
+#define MOVE_FLAG_CAN_SNATCH          (1 << 3)
+#define MOVE_FLAG_CAN_MIRROR_MOVE     (1 << 4)
+#define MOVE_FLAG_TRIGGERS_KINGS_ROCK (1 << 5)
+#define MOVE_FLAG_KEEP_HP_BAR         (1 << 6)
+#define MOVE_FLAG_HIDE_SHADOW         (1 << 7)
+
+// Contest types (MOVE_ATTRIBUTE_CONTEST_TYPE)
+#define CONTEST_TYPE_COOL   0
+#define CONTEST_TYPE_BEAUTY 1
+#define CONTEST_TYPE_CUTE   2
+#define CONTEST_TYPE_SMART  3
+#define CONTEST_TYPE_TOUGH  4
+
 // Tutor move flags
 #define TUTOR_DIVE          0
 #define TUTOR_MUD_SLAP      1

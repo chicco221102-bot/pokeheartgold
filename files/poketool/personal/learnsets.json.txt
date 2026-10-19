@@ -1,0 +1,17 @@
+{{ doNotModifyHeader }}
+
+#include "constants/species.h"
+#include "constants/moves.h"
+
+	.rodata
+## for mon in learnsets
+	.type gLevelUpLearnset_{{ mon.species }}, @object
+	.balign 4, 0
+gLevelUpLearnset_{{ mon.species }}:
+## for entry in mon.moves
+	.short ({{ entry.level }} << 9) | {{ entry.move }}
+## endfor
+	.short 0xFFFF
+	.balign 4, 0
+	.size gLevelUpLearnset_{{ mon.species }},.-gLevelUpLearnset_{{ mon.species }}
+## endfor

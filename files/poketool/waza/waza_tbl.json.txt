@@ -1,0 +1,31 @@
+{{ doNotModifyHeader }}
+
+#include "struct_defs/move_tbl.h"
+#include "constants/moves.h"
+#include "constants/move_effects.h"
+#include "constants/pokemon.h"
+
+u32 __size = sizeof(MoveTbl);
+
+const MoveTbl __data[] = {
+## for move in moves
+    // {{ move.move }}
+    {
+        {{ move.effect }}, // Effect
+        {{ move.category }}, // Category
+        {{ move.power }}, // Power
+        {{ move.type }}, // Type
+        {{ move.accuracy }}, // Accuracy
+        {{ move.pp }}, // PP
+        {{ move.effectChance }}, // Effect chance
+        {{ move.range }}, // Range
+        {{ move.priority }}, // Priority
+        {% for flag in move.flags %}{{ flag }} | {% endfor %}0, // Flags
+        {
+            {{ move.contestEffect }}, // Contest effect
+            {{ move.contestType }}, // Contest type
+            0, // Padding
+        },
+    },
+## endfor
+};
