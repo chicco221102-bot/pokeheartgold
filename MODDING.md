@@ -21,7 +21,7 @@ dove si trova ogni cosa e come ricompilare la ROM.
 | Tenere premuto **R** fa scorrere i dialoghi; testo VELOCE di default | `src/render_text.c`, `src/text.c`, `src/scrcmd_c.c`, `src/options.c` |
 | Riepilogo Pokémon, pagina statistiche: **SELECT** alterna Statistiche / EV / IV / Base | `src/pokemon_summary_stat_view.c` |
 | All'inizio di ogni lotta con un selvatico compaiono i suoi IV | `subscript_0000_StartEncounter.s`, `TAG_NICKNAME_IVS` in `src/battle/battle_system.c` |
-| La bici è una **macchina**: grafica "Gary Oak HGSS car" di [Dionyus1](https://www.deviantart.com/dionyus1) su DeviantArt, una casella per frame (2 volte la bici originale al massimo) | `files/data/mmodel/mmodel/mmodel_00000071.NSBTX` (generato da `tools/car_sprite/make_car_sprite.py`), `asm/unk_0205CB48.s` |
+| Bici sempre alla velocità massima | `asm/unk_0205CB48.s` |
 | Azione → "Sborrata", potenza 100, animazione di Idropompa | `waza_tbl.json`, `msg_0750/0751`, `files/a/0/1/0` |
 
 ## Compilare la ROM modificata
@@ -159,10 +159,9 @@ Nel gioco originale la bici ha 4 livelli di velocità che salgono a ogni passo. 
 del movimento per livello è in `sub_0205D658` (`asm/unk_0205CB48.s`): `0x4C` → `0x10` →
 `0x50` → `0x14` (la velocità massima, 2 frame per casella).
 
-**In questo repository la bici è una macchina**: tutti e quattro i livelli usano il
-movimento `0x54` (16 pixel per frame, una casella per frame), il doppio della velocità
-massima originale. Per tornare alla bici originale rimetti `0x4c`, `0x10`, `0x50`, `0x14`
-nei quattro `mov r4, ...` di `sub_0205D658` e ripristina `mmodel_00000071.NSBTX` con git.
+**In questo repository è attiva la "bici turbo"**: tutti e quattro i livelli usano
+`0x14`, quindi la bici parte subito alla velocità massima. Per tornare alla bici
+originale rimetti `0x4c`, `0x10`, `0x50` nei tre `mov r4, ...` di `sub_0205D658`.
 
 La corsa con le Scarpe da Corsa usa il movimento `0x58` (4 frame per casella) in
 `sub_0205D4B4`.
