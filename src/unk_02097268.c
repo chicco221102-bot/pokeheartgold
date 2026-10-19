@@ -4,6 +4,7 @@
 #include "constants/phone_constants.h"
 
 #include "gf_gfx_loader.h"
+#include "randomizer.h"
 #include "sys_flags.h"
 
 typedef struct SafariZoneAreaEncounterSlot {
@@ -244,6 +245,10 @@ EncounterSlot *SafariZoneAreaSet_LoadAreaEncounters(SafariZoneAreaSet *areaSet, 
         if (++numBonusMons > NUM_ENCOUNTERS_SAFARI - 1) {
             break;
         }
+    }
+
+    for (i = 0; i < NUM_ENCOUNTERS_SAFARI; ++i) {
+        ret[i].species = Randomizer_GetWildSpecies(SaveData_Get(), RANDOMIZER_AREA_SAFARI | safariZoneArea->area_no, ret[i].species);
     }
 
     Heap_Free(loadedEncData);

@@ -13,6 +13,7 @@
 #include "overlay_01_021EDAFC.h"
 #include "overlay_01_02204ED8.h"
 #include "player_data.h"
+#include "randomizer.h"
 #include "scrcmd.h"
 #include "script.h"
 #include "script_manager.h"
@@ -115,6 +116,12 @@ static BOOL Task_TryHeadbuttEncounter(TaskManager *taskManager) {
     FieldSystem *fieldSystem = TaskManager_GetFieldSystem(taskManager);
     TaskData_TryHeadbuttEncounter *didHeadbuttStartBattle = TaskManager_GetEnvironment(taskManager);
     headbuttTable = AllocAtEndAndReadWholeNarcMemberByIdPair(NARC_arc_headbutt, fieldSystem->location->mapId, HEAP_ID_FIELD2);
+    for (int i = 0; i < NUM_ENCOUNTERS_HEADBUTT; i++) {
+        u32 area = RANDOMIZER_AREA_HEADBUTT | fieldSystem->location->mapId;
+        headbuttTable->common[i].species = Randomizer_GetWildSpecies(fieldSystem->saveData, area, headbuttTable->common[i].species);
+        headbuttTable->rare[i].species = Randomizer_GetWildSpecies(fieldSystem->saveData, area, headbuttTable->rare[i].species);
+        headbuttTable->secret[i].species = Randomizer_GetWildSpecies(fieldSystem->saveData, area, headbuttTable->secret[i].species);
+    }
     if (headbuttTable->numRegularTrees != 0 || headbuttTable->numSecretTrees != 0) {
         BattleSetup *setup;
         u32 x;

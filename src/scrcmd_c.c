@@ -54,6 +54,7 @@
 #include "player_avatar.h"
 #include "pokedex.h"
 #include "pokewalker.h"
+#include "randomizer.h"
 #include "render_text.h"
 #include "render_window.h"
 #include "safari_zone.h"
@@ -2393,7 +2394,9 @@ BOOL ScrCmd_GetStarterChoice(ScriptContext *ctx) {
 }
 
 BOOL ScrCmd_SetStarterChoice(ScriptContext *ctx) {
-    u16 choice = ScriptGetVar(ctx);
+    // Store Chikorita/Cyndaquil/Totodile for the chosen Poké Ball: the scripts
+    // that pick the rival's team compare against those species.
+    u16 choice = Randomizer_GetStarterSlotSpecies(ctx->fieldSystem->saveData, ScriptGetVar(ctx));
     Save_VarsFlags_SetStarter(Save_VarsFlags_Get(ctx->fieldSystem->saveData), choice);
     return FALSE;
 }

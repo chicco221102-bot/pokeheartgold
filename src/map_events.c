@@ -6,6 +6,7 @@
 #include "field_system.h"
 #include "filesystem.h"
 #include "map_object.h"
+#include "randomizer.h"
 
 static void MapEvents_ReadFromNarc(MapEvents *events, u32 mapno);
 static void MapEvents_ComputeRamHeader(MapEvents *events);
@@ -195,6 +196,7 @@ void WildEncounters_ReadFromNarc(EncounterData *encData, u32 mapno) {
     if (MapHeader_HasWildEncounters(mapno)) {
         int bank = MapHeader_GetWildEncounterBank(mapno);
         ReadWholeNarcMemberByIdPair(encData, ENCDATA_NARC, bank);
+        Randomizer_RandomizeEncounterData(encData, bank);
     }
 }
 

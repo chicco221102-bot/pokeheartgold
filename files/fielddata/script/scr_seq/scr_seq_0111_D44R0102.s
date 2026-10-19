@@ -105,13 +105,13 @@ _0158:
 
 _015E:
 	GetStarterChoice VAR_TEMP_x4000
-	Compare VAR_TEMP_x4000, STARTER_1
+	Compare VAR_TEMP_x4000, 152
 	GoToIfNe _017B
 	SetVar VAR_OBJ_0, 1048
 	GoTo _019A
 
 _017B:
-	Compare VAR_TEMP_x4000, STARTER_2
+	Compare VAR_TEMP_x4000, 155
 	GoToIfNe _0194
 	SetVar VAR_OBJ_0, 1049
 	GoTo _019A

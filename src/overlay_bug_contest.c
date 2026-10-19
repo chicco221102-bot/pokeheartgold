@@ -11,6 +11,7 @@
 #include "message_format.h"
 #include "pokedex.h"
 #include "pokemon_storage_system.h"
+#include "randomizer.h"
 #include "save_arrays.h"
 #include "unk_02055418.h"
 #include "unk_0205BB1C.h"
@@ -307,6 +308,7 @@ void BugContest_InitEncounters(BugContest *bugContest) {
         set = 0;
     }
     MI_CpuCopy8(&bugmon[set * BUGMON_COUNT], bugContest->encounters, BUGMON_COUNT * sizeof(BUGMON));
+    Randomizer_RandomizeBugContestSpecies(bugContest->saveData, &bugContest->encounters[0].species, BUGMON_COUNT, sizeof(BUGMON));
     Heap_Free(bugmon);
     FS_CloseFile(&file);
 }

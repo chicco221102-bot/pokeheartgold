@@ -2,8 +2,6 @@
 
 #include "global.h"
 
-#include "constants/starters.h"
-
 #include "application/choose_starter/choose_starter_main_res.naix"
 #include "application/choose_starter/choose_starter_sub_res.naix"
 #include "msgdata/msg.naix"
@@ -16,6 +14,7 @@
 #include "gf_3d_vramman.h"
 #include "gf_gfx_loader.h"
 #include "launch_application.h"
+#include "message_format.h"
 #include "obj_char_transfer.h"
 #include "obj_pltt_transfer.h"
 #include "render_text.h"
@@ -236,7 +235,7 @@ static BOOL updateBaseRotation(struct ChooseStarterAppWork *work, fx16 speed);
 static void reinitBallModelPosInDirection(struct ChooseStarterAppWork *work, int direction);
 static void makeAndDrawWindows(struct ChooseStarterAppWork *work);
 static void loadBgGraphics(BgConfig *bgConfig, enum HeapID heapID);
-static u8 printMsgOnWinEx(Window *window, enum HeapID heapID, BOOL makeFrame, s32 msgBank, int msgno, u32 color, u32 speed, String **out);
+static u8 printMsgOnWinEx(Window *window, enum HeapID heapID, BOOL makeFrame, s32 msgBank, int msgno, u32 color, u32 speed, String **out, Pokemon *mon);
 static void printMsgOnBottom(struct ChooseStarterAppWork *work, int msgId);
 static void freeWindow(Window *window);
 static int getInput(struct ChooseStarterAppWork *work);
@@ -306,12 +305,6 @@ BOOL ChooseStarter_Init(OverlayManager *ovy, int *state_p) {
     return TRUE;
 }
 
-static const int sSpecies[] = {
-    STARTER_1,
-    STARTER_2,
-    STARTER_3,
-};
-
 BOOL ChooseStarter_Main(OverlayManager *ovy, int *state) {
     struct ChooseStarterAppWork *work = OverlayManager_GetData(ovy);
     int cameraPathSel = CAMERA_PATH_NULL;
@@ -334,13 +327,13 @@ BOOL ChooseStarter_Main(OverlayManager *ovy, int *state) {
         if (!IsCameraTranslationFinished(work->cameraTranslation)) {
             break;
         }
-        work->subPrinterId = printMsgOnWinEx(work->winTop, work->heapID, TRUE, msg_0190, msg_0190_00000, MAKE_TEXT_COLOR(1, 2, 15), work->textSpeed, &work->strbuf);
+        work->subPrinterId = printMsgOnWinEx(work->winTop, work->heapID, TRUE, msg_0190, msg_0190_00000, MAKE_TEXT_COLOR(1, 2, 15), work->textSpeed, &work->strbuf, NULL);
         GfGfx_EngineATogglePlanes(GX_PLANEMASK_BG1, GF_PLANE_TOGGLE_OFF);
         GfGfx_EngineATogglePlanes(GX_PLANEMASK_BG2, GF_PLANE_TOGGLE_OFF);
         *state = CHOOSE_STARTER_STATE_WAIT_INIT_MSG;
         break;
     case CHOOSE_STARTER_STATE_CONFIRM_MSG:
-        work->subPrinterId = printMsgOnWinEx(work->winTop, work->heapID, TRUE, msg_0190, msg_0190_00001 + work->curSelection, MAKE_TEXT_COLOR(1, 2, 15), work->textSpeed, &work->strbuf);
+        work->subPrinterId = printMsgOnWinEx(work->winTop, work->heapID, TRUE, msg_0190, msg_0190_00001 + work->curSelection, MAKE_TEXT_COLOR(1, 2, 15), work->textSpeed, &work->strbuf, work->choices[work->curSelection]);
         printMsgOnBottom(work, msg_0190_00008);
         GfGfx_EngineATogglePlanes(GX_PLANEMASK_BG1, GF_PLANE_TOGGLE_ON);
         GfGfx_EngineATogglePlanes(GX_PLANEMASK_BG2, GF_PLANE_TOGGLE_ON);
@@ -372,10 +365,10 @@ BOOL ChooseStarter_Main(OverlayManager *ovy, int *state) {
             work->modelAnimState = MODEL_ANM_STATE_BALL_ROCK;
             {
                 String *baseTrans = NULL;
-                printMsgOnWinEx(work->winTop, work->heapID, FALSE, msg_0190, msg_0190_00004 + work->curSelection, MAKE_TEXT_COLOR(1, 2, 15), 0, &baseTrans);
+                printMsgOnWinEx(work->winTop, work->heapID, FALSE, msg_0190, msg_0190_00004 + work->curSelection, MAKE_TEXT_COLOR(1, 2, 15), 0, &baseTrans, work->choices[work->curSelection]);
                 String_Delete(baseTrans);
             }
-            PlayCry(sSpecies[work->curSelection], FALSE);
+            PlayCry(GetMonData(work->choices[work->curSelection], MON_DATA_SPECIES, NULL), FALSE);
             printMsgOnBottom(work, msg_0190_00007);
             GfGfx_EngineATogglePlanes(GX_PLANEMASK_BG1, GF_PLANE_TOGGLE_ON);
             GfGfx_EngineATogglePlanes(GX_PLANEMASK_BG2, GF_PLANE_TOGGLE_ON);
@@ -426,10 +419,10 @@ BOOL ChooseStarter_Main(OverlayManager *ovy, int *state) {
         work->modelAnimState = MODEL_ANM_STATE_BALL_ROCK;
         {
             String *sp10 = NULL;
-            printMsgOnWinEx(work->winTop, work->heapID, FALSE, msg_0190, msg_0190_00004 + work->curSelection, MAKE_TEXT_COLOR(1, 2, 15), 0, &sp10);
+            printMsgOnWinEx(work->winTop, work->heapID, FALSE, msg_0190, msg_0190_00004 + work->curSelection, MAKE_TEXT_COLOR(1, 2, 15), 0, &sp10, work->choices[work->curSelection]);
             String_Delete(sp10);
         }
-        PlayCry(sSpecies[work->curSelection], 0);
+        PlayCry(GetMonData(work->choices[work->curSelection], MON_DATA_SPECIES, NULL), 0);
         if (work->state != SELECT_STATE_INSPECT) {
             GfGfx_EngineATogglePlanes(GX_PLANEMASK_BG1, GF_PLANE_TOGGLE_ON);
             GfGfx_EngineATogglePlanes(GX_PLANEMASK_BG2, GF_PLANE_TOGGLE_ON);
@@ -1041,13 +1034,26 @@ static void loadBgGraphics(BgConfig *bgConfig, enum HeapID heapID) {
     G2S_SetBlendAlpha(4, 34, 5, 11);
 }
 
-static u8 printMsgOnWinEx(Window *window, enum HeapID heapID, BOOL makeFrame, s32 msgBank, int msgno, u32 color, u32 speed, String **out) {
+static u8 printMsgOnWinEx(Window *window, enum HeapID heapID, BOOL makeFrame, s32 msgBank, int msgno, u32 color, u32 speed, String **out, Pokemon *mon) {
     MsgData *msgData;
     u8 ret;
     GF_ASSERT(*out == NULL);
     msgData = NewMsgDataFromNarc(MSGDATA_LOAD_DIRECT, NARC_msgdata_msg, msgBank, heapID);
     GF_ASSERT(msgData != NULL);
-    *out = NewString_ReadMsgData(msgData, msgno);
+    if (mon != NULL) {
+        // The starters are randomized: fill in the species name and its type.
+        u16 species = GetMonData(mon, MON_DATA_SPECIES, NULL);
+        MessageFormat *msgFormat = MessageFormat_New(heapID);
+        String *src = NewString_ReadMsgData(msgData, msgno);
+        BufferSpeciesName(msgFormat, 0, species);
+        BufferTypeName(msgFormat, 1, GetMonBaseStat(species, BASE_TYPE1));
+        *out = String_New(256, heapID);
+        StringExpandPlaceholders(msgFormat, *out, src);
+        String_Delete(src);
+        MessageFormat_Delete(msgFormat);
+    } else {
+        *out = NewString_ReadMsgData(msgData, msgno);
+    }
     FillWindowPixelBuffer(window, color);
     ret = AddTextPrinterParameterizedWithColor(window, 1, *out, 0, 0, speed, color, NULL);
     if (makeFrame) {
@@ -1061,7 +1067,7 @@ static u8 printMsgOnWinEx(Window *window, enum HeapID heapID, BOOL makeFrame, s3
 
 static void printMsgOnBottom(struct ChooseStarterAppWork *work, int msgId) {
     String *string = NULL;
-    printMsgOnWinEx(work->winBottom, work->heapID, FALSE, msg_0190, msgId, MAKE_TEXT_COLOR(1, 2, 0), 0, &string);
+    printMsgOnWinEx(work->winBottom, work->heapID, FALSE, msg_0190, msgId, MAKE_TEXT_COLOR(1, 2, 0), 0, &string, NULL);
     String_Delete(string);
 }
 

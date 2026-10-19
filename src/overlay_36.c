@@ -285,6 +285,8 @@ static void NewGame_SkipToStarterChoice(SaveData *saveData) {
     Save_VarsFlags_SetFlagInArray(varsFlags, FLAG_GOT_TRAINER_CARD);
     Save_VarsFlags_SetFlagInArray(varsFlags, FLAG_GOT_SAVE_BUTTON);
     Save_VarsFlags_SetFlagInArray(varsFlags, FLAG_GOT_OPTIONS_BUTTON);
+    // Mom normally hands over the Pokégear after the starter, at home
+    Save_VarsFlags_SetFlagInArray(varsFlags, FLAG_GOT_POKEGEAR);
     // Lyra and her Marill in New Bark Town
     Save_VarsFlags_SetFlagInArray(varsFlags, FLAG_HIDE_NEW_BARK_MARILL);
     Save_VarsFlags_SetFlagInArray(varsFlags, FLAG_HIDE_NEW_BARK_FRIEND);

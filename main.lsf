@@ -268,6 +268,7 @@ Static main
     Object main.nef.p/src_pokemon.c.o
     Object main.nef.p/src_move.c.o
     Object main.nef.p/src_trainer_data.c.o
+    Object main.nef.p/src_randomizer.c.o
     Object main.nef.p/src_pokemon_storage_system.c.o
     Object main.nef.p/src_pokemon_icon_idx.c.o
     Object main.nef.p/src_party.c.o

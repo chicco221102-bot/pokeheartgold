@@ -3,12 +3,12 @@
 #include "constants/balls.h"
 #include "constants/items.h"
 #include "constants/species.h"
-#include "constants/starters.h"
 
 #include "field_system.h"
 #include "launch_application.h"
 #include "map_header.h"
 #include "pokedex.h"
+#include "randomizer.h"
 #include "screen_fade.h"
 #include "task.h"
 #include "update_dex_received.h"
@@ -43,11 +43,8 @@ static BOOL CreateStarter(TaskManager *taskManager) {
             break;
         }
         {
-            const int species[] = {
-                STARTER_1,
-                STARTER_2,
-                STARTER_3,
-            };
+            u16 species[3];
+            Randomizer_GetStarters(fieldSystem->saveData, species);
             mapsec = MapHeader_GetMapSec(fieldSystem->location->mapId); // sp14
 
             env->args = Heap_AllocAtEnd(HEAP_ID_FIELD2, sizeof(struct ChooseStarterArgs));

@@ -12,6 +12,7 @@
 #include "msgdata.h"
 #include "party.h"
 #include "pokemon.h"
+#include "randomizer.h"
 #include "save_misc_data.h"
 
 void CreateNPCTrainerParty(BattleSetup *battleSetup, int trainerIndex, enum HeapID heapID);
@@ -37,6 +38,7 @@ void EnemyTrainerSet_Init(BattleSetup *battleSetup, SaveData *saveData, enum Hea
                 String_Delete(string);
             }
             CreateNPCTrainerParty(battleSetup, i, heapID);
+            Randomizer_ApplyRivalStarter(battleSetup, i, saveData);
         }
     }
     battleSetup->battleType |= trainer.data.doubleBattle;

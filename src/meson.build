@@ -142,6 +142,7 @@ pokeheartgold_c = files(
     'pokedex.c',
     'pokedex_util.c',
     'pokemon.c',
+    'randomizer.c',
     'pokemon_icon_idx.c',
     'pokemon_mood.c',
     'pokemon_storage_system.c',
