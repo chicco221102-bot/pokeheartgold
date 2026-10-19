@@ -7557,6 +7557,7 @@ static void InitBattleMsgData(BattleContext *ctx, BattleMessageData *msgData) {
         params = 4;
         break;
     case TAG_TRCLASS_TRNAME_NICKNAME_TRCLASS_TRNAME_NICKNAME:
+    case TAG_NICKNAME_IVS:
         params = 6;
         break;
     }
@@ -7574,6 +7575,7 @@ static void InitBattleMsg(BattleSystem *battleSystem, BattleContext *ctx, Battle
         msg->param[0] = BattleSystem_GetBattlerIDBySide(battleSystem, ctx, msgData->params[0]);
         return;
     case TAG_NICKNAME:
+    case TAG_NICKNAME_IVS:
         msg->param[0] = ov12_022480C0(battleSystem, ctx, msgData->params[0]);
         return;
     case TAG_MOVE:

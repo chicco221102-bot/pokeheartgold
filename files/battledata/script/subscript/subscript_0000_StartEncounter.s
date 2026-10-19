@@ -48,6 +48,22 @@ _079:
 _084:
     Wait 
     WaitButtonABTime 30
+    // Show the wild Pokémon's IVs
+    CompareVarToValue OPCODE_FLAG_SET, BSCRIPT_VAR_BATTLE_TYPE, BATTLE_TYPE_DOUBLES, _ShowDoubleIVs
+    PrintGlobalMessage msg_0197_01276, TAG_NICKNAME_IVS, BATTLER_CATEGORY_ENEMY, 0, 0, 0, 0, 0
+    Wait 
+    WaitButtonABTime 60
+    GoTo _ShowIVsDone
+
+_ShowDoubleIVs:
+    PrintGlobalMessage msg_0197_01276, TAG_NICKNAME_IVS, BATTLER_CATEGORY_ENEMY_SLOT_1, 0, 0, 0, 0, 0
+    Wait 
+    WaitButtonABTime 60
+    PrintGlobalMessage msg_0197_01276, TAG_NICKNAME_IVS, BATTLER_CATEGORY_ENEMY_SLOT_2, 0, 0, 0, 0, 0
+    Wait 
+    WaitButtonABTime 60
+
+_ShowIVsDone:
     CompareVarToValue OPCODE_FLAG_SET, BSCRIPT_VAR_BATTLE_TYPE, BATTLE_TYPE_MULTI, _098
     // Go! {0}!
     PrintMessage msg_0197_00979, TAG_NICKNAME, BATTLER_CATEGORY_PLAYER

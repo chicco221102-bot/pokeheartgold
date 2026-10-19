@@ -20,6 +20,7 @@ dove si trova ogni cosa e come ricompilare la ROM.
 | Probabilità shiny 50% | `SHINY_ODDS` in `include/constants/pokemon.h` |
 | Tenere premuto **R** fa scorrere i dialoghi; testo VELOCE di default | `src/render_text.c`, `src/text.c`, `src/scrcmd_c.c`, `src/options.c` |
 | Riepilogo Pokémon, pagina statistiche: **SELECT** alterna Statistiche / EV / IV / Base | `src/pokemon_summary_stat_view.c` |
+| All'inizio di ogni lotta con un selvatico compaiono i suoi IV | `subscript_0000_StartEncounter.s`, `TAG_NICKNAME_IVS` in `src/battle/battle_system.c` |
 | Bici sempre alla velocità massima | `asm/unk_0205CB48.s` |
 | Azione → "Sborrata", potenza 100, animazione di Idropompa | `waza_tbl.json`, `msg_0750/0751`, `files/a/0/1/0` |
 

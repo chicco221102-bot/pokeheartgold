@@ -28,6 +28,7 @@ static u8 ov12_0223BFB0(u8 *buffer, u8 *index, u16 *size);
 static void BattleSystem_AdjustMessageForSide(BattleSystem *battleSystem, BattleMessage *msg);
 static void BattleSystem_BufferMessage(BattleSystem *battleSystem, BattleMessage *msg);
 static void BattleMessage_BufferNickname(BattleSystem *battleSystem, int bufferIndex, int param);
+static void BattleMessage_BufferIVs(BattleSystem *battleSystem, int bufferIndex, int param);
 static void BattleMessage_BufferMove(BattleSystem *battleSystem, int bufferIndex, int param);
 static void BattleMessage_BufferItem(BattleSystem *battleSystem, int bufferIndex, int param);
 static void BattleMessage_BufferNumber(BattleSystem *battleSystem, int bufferIndex, int param);
@@ -1485,6 +1486,7 @@ static void BattleSystem_AdjustMessageForSide(BattleSystem *battleSystem, Battle
     case TAG_TRCLASS_TRNAME_NICKNAME_TRNAME:
     case TAG_TRCLASS_TRNAME_TRCLASS_TRNAME:
     case TAG_TRCLASS_TRNAME_NICKNAME_TRCLASS_TRNAME_NICKNAME:
+    case TAG_NICKNAME_IVS:
         break;
     case TAG_NONE_SIDE:
         if (BattleSystem_GetFieldSide(battleSystem, msg->param[0] & 0xFF)) {
@@ -1853,8 +1855,22 @@ static void BattleSystem_BufferMessage(BattleSystem *battleSystem, BattleMessage
         BattleMessage_BufferTrainerName(battleSystem, 4, msg->param[4]);
         BattleMessage_BufferNickname(battleSystem, 5, msg->param[5]);
         break;
+    case TAG_NICKNAME_IVS:
+        BattleMessage_BufferNickname(battleSystem, 0, msg->param[0]);
+        BattleMessage_BufferIVs(battleSystem, 1, msg->param[0]);
+        break;
     default:
         GF_ASSERT(FALSE);
+    }
+}
+
+// Buffers the battler's IVs as HP, Atk, Def, Sp. Atk, Sp. Def, Speed.
+static void BattleMessage_BufferIVs(BattleSystem *battleSystem, int bufferIndex, int param) {
+    static const u16 ivIds[NUM_STATS] = { MON_DATA_HP_IV, MON_DATA_ATK_IV, MON_DATA_DEF_IV, MON_DATA_SPATK_IV, MON_DATA_SPDEF_IV, MON_DATA_SPEED_IV };
+    Pokemon *mon = BattleSystem_GetPartyMon(battleSystem, param & 0xFF, (param & 0xFF00) >> 8);
+
+    for (int i = 0; i < NUM_STATS; i++) {
+        BufferIntegerAsString(battleSystem->msgFormat, bufferIndex + i, GetMonData(mon, ivIds[i], NULL), 2, PRINTING_MODE_LEFT_ALIGN, TRUE);
     }
 }
 

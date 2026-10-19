@@ -62,5 +62,6 @@
 #define TAG_TRCLASS_TRNAME_NICKNAME_TRNAME                  58
 #define TAG_TRCLASS_TRNAME_TRCLASS_TRNAME                   59
 #define TAG_TRCLASS_TRNAME_NICKNAME_TRCLASS_TRNAME_NICKNAME 60
+#define TAG_NICKNAME_IVS                                    61 // nickname + that battler's six IVs; takes 6 args, only the first (battler) is used
 
 #endif
