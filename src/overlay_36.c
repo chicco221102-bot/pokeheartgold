@@ -4,6 +4,7 @@
 
 #include "constants/easy_chat.h"
 #include "constants/flags.h"
+#include "constants/items.h"
 #include "constants/mail.h"
 #include "constants/maps.h"
 #include "constants/species.h"
@@ -15,6 +16,7 @@
 #include "msgdata/msg/msg_0445.h"
 
 #include "apricorn_tree.h"
+#include "bag.h"
 #include "field_system.h"
 #include "friend_group.h"
 #include "heap.h"
@@ -54,7 +56,7 @@ static BOOL ov36_TitleScreen_NewGame_AppExit(OverlayManager *man, int *state);
 static void InitGameStateAfterOakSpeech_Internal(enum HeapID heapID, SaveData *saveData, BOOL set_trainer_id);
 static void Continue_LoadSaveData_HandleError(enum HeapID heapID, SaveData *saveData);
 static void NewGame_InitSaveData(enum HeapID heapID, SaveData *saveData);
-static void NewGame_SkipToStarterChoice(SaveData *saveData);
+static void NewGame_SkipToStarterChoice(SaveData *saveData, enum HeapID heapID);
 
 const OverlayManagerTemplate ov36_App_MainMenu_SelectOption_NewGame = {
     .init = ov36_TitleScreen_NewGame_AppInit,
@@ -114,7 +116,7 @@ BOOL ov36_TitleScreen_NewGame_AppExec(OverlayManager *man, int *state) {
     PlayerProfile *profile = Save_PlayerData_GetProfile(saveData);
     Save_Profile_PlayerName_Set(profile, (u16 *)sDefaultPlayerName);
     PlayerProfile_SetTrainerGender(profile, PLAYER_GENDER_MALE);
-    NewGame_SkipToStarterChoice(saveData);
+    NewGame_SkipToStarterChoice(saveData, HEAPID_OV36);
     InitGameStateAfterOakSpeech_Internal(HEAPID_OV36, saveData, TRUE);
     sub_0201838C(Save_PlayerData_GetIGTAddr(saveData));
 
@@ -277,7 +279,7 @@ static void NewGame_InitSaveData(enum HeapID heapID, SaveData *saveData) {
 
 // Start the adventure in Prof. Elm's lab, facing the starter machine, with
 // the earlier scenes (Mom's speech, Lyra's Marill, Elm's intro) already done.
-static void NewGame_SkipToStarterChoice(SaveData *saveData) {
+static void NewGame_SkipToStarterChoice(SaveData *saveData, enum HeapID heapID) {
     SaveVarsFlags *varsFlags = Save_VarsFlags_Get(saveData);
 
     // Mom's scene: menu icons
@@ -293,6 +295,11 @@ static void NewGame_SkipToStarterChoice(SaveData *saveData) {
     SetScriptVar(varsFlags, VAR_SCENE_PLAYERS_HOUSE_1F, 2);
     // Elm's intro speech (he keeps the player in the lab until a starter is chosen)
     Save_VarsFlags_SetFlagInArray(varsFlags, FLAG_ELMS_LAB_PREVENT_PLAYER_ESCAPE);
+
+    // Start with the Bicycle; the Goldenrod bike shop treats it as already lent
+    Bag_AddItem(Save_Bag_Get(saveData), ITEM_BICYCLE, 1, heapID);
+    Bag_TryRegisterItem(Save_Bag_Get(saveData), ITEM_BICYCLE); // Y button
+    Save_VarsFlags_SetFlagInArray(varsFlags, FLAG_UNK_089);
 
     // The tile right below the starter machine (x=8, z=4)
     InitLocation(LocalFieldData_GetCurrentPosition(Save_LocalFieldData_Get(saveData)), MAP_NEW_BARK_ELMS_LAB_1F, -1, 8, 5, DIR_NORTH);
