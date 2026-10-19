@@ -34,6 +34,7 @@ typedef struct TextPrinterSubStruct {
 
 RenderResult RenderText(TextPrinter *printer);
 void TextFlags_SetCanABSpeedUpPrint(BOOL enable);
+BOOL TextFlags_IsFastForwardHeld(void);
 void TextPrinter_SetDownArrowBaseTile(int tile);
 void TextFlags_SetAutoScrollParam(int param);
 void TextFlags_SetCanTouchSpeedUpPrint(BOOL enable);

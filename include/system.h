@@ -59,6 +59,10 @@ struct System {
 
 extern struct System gSystem;
 
+// Holding R fast-forwards dialogue: text prints at once and message boxes
+// close on their own. Raw keys so it also works with the L=A button mode.
+#define FAST_FORWARD_HELD() ((gSystem.heldKeysRaw & PAD_BUTTON_R) != 0)
+
 void sub_0201A0E0(void);
 void Main_SetVBlankIntrCB(GFIntrCB cb, void *arg);
 void HBlankInterruptDisable(void);

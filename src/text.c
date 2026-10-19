@@ -3,6 +3,7 @@
 #include "global.h"
 
 #include "font.h"
+#include "render_text.h"
 #include "gf_gfx_loader.h"
 #include "sys_task.h"
 
@@ -208,7 +209,18 @@ static void RunTextPrinter(SysTask *task, TextPrinter *printer) {
 
         GenerateFontHalfRowLookupTable(printer->template.fgColor, printer->template.bgColor, printer->template.shadowColor);
 
-        switch (RenderFont(printer)) {
+        RenderResult result = RenderFont(printer);
+        if (printer->callback == NULL && TextFlags_IsFastForwardHeld()) {
+            // Fast-forward: keep printing characters until the next wait or the end.
+            for (int i = 0; result == RENDER_PRINT && i < 0x400; i++) {
+                result = RenderFont(printer);
+            }
+            if (result != RENDER_PRINT) {
+                CopyWindowToVram(printer->template.window);
+            }
+        }
+
+        switch (result) {
         case RENDER_PRINT:
             CopyWindowToVram(printer->template.window);
             // fallthrough

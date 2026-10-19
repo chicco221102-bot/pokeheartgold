@@ -278,6 +278,17 @@ static BOOL MainMenu_HandleKeyInput(MainMenuAppData *data, int *state) {
         return FALSE;
     }
 
+    if (gSystem.newKeys & PAD_BUTTON_START) {
+        // Shortcut: START jumps to NEW GAME and its confirmation dialog.
+        for (int i = 0; i < APPOPTION_COUNT; i++) {
+            if (data->unkEC[i] == APPOPTION_NEW_GAME) {
+                data->currentOption = i;
+                ov74_0222841C(data, data->currentOption);
+                return ov74_022270C4(data, state, FALSE);
+            }
+        }
+    }
+
     if (gSystem.newKeys & PAD_BUTTON_A) {
         return ov74_022270C4(data, state, FALSE);
     } else if (gSystem.newKeys & PAD_BUTTON_B) {
@@ -1457,6 +1468,9 @@ BOOL MainMenuApp_Main(OverlayManager *manager, int *state) {
     case 6:
         if (data->unk144 == 15) {
             if (data->unk150 & PAD_BUTTON_B) {
+                // Clear the New Game dialog request so a later popup can't reopen it.
+                data->unk40 &= ~(1 << 7);
+                data->unk44 &= ~(1 << 7);
                 *state = 5;
             } else {
                 ov74_0223539C(0, 7, state, 8);

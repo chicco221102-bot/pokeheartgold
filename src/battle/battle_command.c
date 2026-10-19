@@ -1011,7 +1011,7 @@ BOOL BtlCmd_WaitButtonABTime(BattleSystem *battleSystem, BattleContext *ctx) {
     int waitIncrement;
 
     if (!(BattleSystem_GetBattleType(battleSystem) & BATTLE_TYPE_LINK)) {
-        if (gSystem.newKeys & 0xC03 || System_GetTouchNew()) {
+        if (gSystem.newKeys & 0xC03 || System_GetTouchNew() || FAST_FORWARD_HELD()) {
             // TODO: Rename variable in struct
             ctx->unk_F0 = waitFrames;
         }
@@ -6257,7 +6257,7 @@ static void Task_GetExp(SysTask *task, void *inData) {
     }
     case STATE_GET_EXP_LEVEL_UP_SUMMARY_PRINT_DIFF_WAIT:
     case STATE_GET_EXP_LEVEL_UP_SUMMARY_PRINT_TRUE_WAIT:
-        if ((gSystem.newKeys & (PAD_BUTTON_A | PAD_BUTTON_B | PAD_BUTTON_X | PAD_BUTTON_Y)) || System_GetTouchNew()) {
+        if ((gSystem.newKeys & (PAD_BUTTON_A | PAD_BUTTON_B | PAD_BUTTON_X | PAD_BUTTON_Y)) || System_GetTouchNew() || FAST_FORWARD_HELD()) {
             PlaySE(SEQ_SE_DP_SELECT);
             data->state++;
         }

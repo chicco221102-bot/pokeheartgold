@@ -612,7 +612,7 @@ BOOL ScrCmd_WaitABPress(ScriptContext *ctx) {
 }
 
 static BOOL sub_02041000(ScriptContext *ctx) {
-    return (gSystem.newKeys & (PAD_BUTTON_A | PAD_BUTTON_B)) != 0;
+    return (gSystem.newKeys & (PAD_BUTTON_A | PAD_BUTTON_B)) != 0 || FAST_FORWARD_HELD();
 }
 
 static BOOL sub_02041040(ScriptContext *ctx);
@@ -624,7 +624,7 @@ BOOL ScrCmd_WaitButtonOrDelay(ScriptContext *ctx) {
 }
 
 static BOOL sub_02041040(ScriptContext *ctx) {
-    if ((gSystem.newKeys & (PAD_BUTTON_A | PAD_BUTTON_B)) != 0) {
+    if ((gSystem.newKeys & (PAD_BUTTON_A | PAD_BUTTON_B)) != 0 || FAST_FORWARD_HELD()) {
         return TRUE;
     }
 
@@ -641,7 +641,7 @@ BOOL ScrCmd_WaitButton(ScriptContext *ctx) {
 static BOOL sub_02041074(ScriptContext *ctx) {
     int new_keys = gSystem.newKeys;
 
-    if ((new_keys & (PAD_BUTTON_A | PAD_BUTTON_B)) != 0) {
+    if ((new_keys & (PAD_BUTTON_A | PAD_BUTTON_B)) != 0 || FAST_FORWARD_HELD()) {
         return TRUE;
     }
 
@@ -668,7 +668,7 @@ BOOL ScrCmd_WaitButtonOrDpad(ScriptContext *ctx) {
 }
 
 static BOOL sub_020410F0(ScriptContext *ctx) {
-    if ((gSystem.newKeys & (PAD_BUTTON_A | PAD_BUTTON_B)) != 0) {
+    if ((gSystem.newKeys & (PAD_BUTTON_A | PAD_BUTTON_B)) != 0 || FAST_FORWARD_HELD()) {
         return TRUE;
     }
 
@@ -917,7 +917,7 @@ static BOOL NativeScript_WaitSignpost(ScriptContext *ctx) {
     u16 direction = 0xFFFF;
     int new_keys = gSystem.newKeys;
 
-    if ((new_keys & (PAD_BUTTON_A | PAD_BUTTON_B)) != 0) {
+    if ((new_keys & (PAD_BUTTON_A | PAD_BUTTON_B)) != 0 || FAST_FORWARD_HELD()) {
         *ret_ptr = 0;
         fieldSystem->textbox_open = FALSE;
         return TRUE;

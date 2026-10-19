@@ -18,7 +18,7 @@ void Options_Copy(Options *src, Options *dest) {
 void Options_Init(Options *options) {
     MI_CpuClear8(options, sizeof(Options));
 
-    options->textSpeed = 1;   // mid speed
+    options->textSpeed = 2;   // fast speed (vanilla: 1, mid)
     options->soundMethod = 0; // stereo
     options->battleStyle = 0; // shift
     options->battleScene = 0; // on

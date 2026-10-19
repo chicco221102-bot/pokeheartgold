@@ -28,6 +28,11 @@ static BOOL TextPrinter_WaitAutoMode(TextPrinter *printer);
 static BOOL TextPrinter_WaitWithDownArrow(TextPrinter *printer);
 static u8 TextPrinter_Wait(TextPrinter *printer);
 
+BOOL TextFlags_IsFastForwardHeld(void) {
+    // Only for text the player could already speed up with A/B (not link play).
+    return sTextFlags.canABSpeedUpPrint && FAST_FORWARD_HELD();
+}
+
 static BOOL TextPrinter_ContinueInputHeld(TextPrinterSubStruct *subStruct) {
     if ((gSystem.heldKeys & (PAD_BUTTON_A | PAD_BUTTON_B)) && subStruct->hasPrintBeenSpedUp) {
         sTextFlags.touchIsSpeedingUpPrint = FALSE;
@@ -84,7 +89,7 @@ RenderResult RenderText(TextPrinter *printer) {
 
     switch (printer->state) {
     case 0:
-        if (TextPrinter_ContinueInputHeld(subStruct)) {
+        if (TextPrinter_ContinueInputHeld(subStruct) || TextFlags_IsFastForwardHeld()) {
             printer->delayCounter = 0;
             if (printer->textSpeedBottom != 0) {
                 sTextFlags.hasSpedUpInput = 1;
@@ -345,6 +350,9 @@ RenderResult RenderText(TextPrinter *printer) {
         printer->state = 0;
         return RENDER_UPDATE;
     case 6:
+        if (TextFlags_IsFastForwardHeld()) {
+            printer->delayCounter = 0;
+        }
         if (printer->delayCounter != 0) {
             printer->delayCounter--;
         } else {
@@ -483,6 +491,11 @@ static void TextPrinter_ClearDownArrow(TextPrinter *printer) {
 
 static BOOL TextPrinter_Continue(TextPrinter *printer) {
 #pragma unused(printer)
+    if (TextFlags_IsFastForwardHeld()) {
+        sTextFlags.hasContinuedInput = 1;
+        return TRUE;
+    }
+
     if (TextPrinter_ContinueInputNew()) {
         PlaySE(SEQ_SE_DP_SELECT);
 

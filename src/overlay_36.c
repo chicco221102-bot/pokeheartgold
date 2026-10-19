@@ -3,8 +3,11 @@
 #include "global.h"
 
 #include "constants/easy_chat.h"
+#include "constants/flags.h"
 #include "constants/mail.h"
+#include "constants/maps.h"
 #include "constants/species.h"
+#include "constants/vars.h"
 
 #include "msgdata/msg.naix"
 #include "msgdata/msg/msg_0292.h"
@@ -26,6 +29,8 @@
 #include "pokemon.h"
 #include "pokewalker.h"
 #include "safari_zone.h"
+#include "save_local_field_data.h"
+#include "save_vars_flags.h"
 #include "sav_system_info.h"
 #include "sys_flags.h"
 #include "sys_vars.h"
@@ -49,6 +54,7 @@ static BOOL ov36_TitleScreen_NewGame_AppExit(OverlayManager *man, int *state);
 static void InitGameStateAfterOakSpeech_Internal(enum HeapID heapID, SaveData *saveData, BOOL set_trainer_id);
 static void Continue_LoadSaveData_HandleError(enum HeapID heapID, SaveData *saveData);
 static void NewGame_InitSaveData(enum HeapID heapID, SaveData *saveData);
+static void NewGame_SkipToStarterChoice(SaveData *saveData);
 
 const OverlayManagerTemplate ov36_App_MainMenu_SelectOption_NewGame = {
     .init = ov36_TitleScreen_NewGame_AppInit,
@@ -108,6 +114,7 @@ BOOL ov36_TitleScreen_NewGame_AppExec(OverlayManager *man, int *state) {
     PlayerProfile *profile = Save_PlayerData_GetProfile(saveData);
     Save_Profile_PlayerName_Set(profile, (u16 *)sDefaultPlayerName);
     PlayerProfile_SetTrainerGender(profile, PLAYER_GENDER_MALE);
+    NewGame_SkipToStarterChoice(saveData);
     InitGameStateAfterOakSpeech_Internal(HEAPID_OV36, saveData, TRUE);
     sub_0201838C(Save_PlayerData_GetIGTAddr(saveData));
 
@@ -266,4 +273,25 @@ static void NewGame_InitSaveData(enum HeapID heapID, SaveData *saveData) {
     Save_VarsFlags_SetFishingCompetitionLengthRecord(Save_VarsFlags_Get(saveData), 56150); // 3'6"
 
     SetFlag960(Save_VarsFlags_Get(saveData));
+}
+
+// Start the adventure in Prof. Elm's lab, facing the starter machine, with
+// the earlier scenes (Mom's speech, Lyra's Marill, Elm's intro) already done.
+static void NewGame_SkipToStarterChoice(SaveData *saveData) {
+    SaveVarsFlags *varsFlags = Save_VarsFlags_Get(saveData);
+
+    // Mom's scene: menu icons
+    Save_VarsFlags_SetFlagInArray(varsFlags, FLAG_GOT_BAG);
+    Save_VarsFlags_SetFlagInArray(varsFlags, FLAG_GOT_TRAINER_CARD);
+    Save_VarsFlags_SetFlagInArray(varsFlags, FLAG_GOT_SAVE_BUTTON);
+    Save_VarsFlags_SetFlagInArray(varsFlags, FLAG_GOT_OPTIONS_BUTTON);
+    // Lyra and her Marill in New Bark Town
+    Save_VarsFlags_SetFlagInArray(varsFlags, FLAG_HIDE_NEW_BARK_MARILL);
+    Save_VarsFlags_SetFlagInArray(varsFlags, FLAG_HIDE_NEW_BARK_FRIEND);
+    SetScriptVar(varsFlags, VAR_SCENE_PLAYERS_HOUSE_1F, 2);
+    // Elm's intro speech (he keeps the player in the lab until a starter is chosen)
+    Save_VarsFlags_SetFlagInArray(varsFlags, FLAG_ELMS_LAB_PREVENT_PLAYER_ESCAPE);
+
+    // The tile right below the starter machine (x=8, z=4)
+    InitLocation(LocalFieldData_GetCurrentPosition(Save_LocalFieldData_Get(saveData)), MAP_NEW_BARK_ELMS_LAB_1F, -1, 8, 5, DIR_NORTH);
 }
