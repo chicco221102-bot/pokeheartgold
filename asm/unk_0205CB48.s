@@ -1418,9 +1418,10 @@ sub_0205D640: ; 0x0205D640
 sub_0205D658: ; 0x0205D658
 	push {r3, r4, r5, lr}
 	add r5, r1, #0
-	; Turbo bike: every speed level uses the top-speed action (0x14)
-	; instead of ramping up 0x4c -> 0x10 -> 0x50 -> 0x14.
-	mov r4, #0x14
+	; Car: every speed level uses action 0x54 (16 px per frame, one tile per
+	; frame), twice the bike's top speed. Vanilla ramps up 0x4c -> 0x10 ->
+	; 0x50 -> 0x14.
+	mov r4, #0x54
 	bl PlayerAvatar_GetUnk24
 	cmp r0, #1
 	beq _0205D670
@@ -1430,13 +1431,13 @@ sub_0205D658: ; 0x0205D658
 	beq _0205D678
 	b _0205D67A
 _0205D670:
-	mov r4, #0x14
+	mov r4, #0x54
 	b _0205D67A
 _0205D674:
-	mov r4, #0x14
+	mov r4, #0x54
 	b _0205D67A
 _0205D678:
-	mov r4, #0x14
+	mov r4, #0x54
 _0205D67A:
 	add r0, r5, #0
 	add r1, r4, #0
